@@ -15,25 +15,8 @@ defaults:
     values:
       layout: "default"
 
-# Where things are
-destination: ./_site
-plugins:     ./_plugins
-layouts:     ./_layouts
-data_source: ./_data
-
-# Filtering Content
-show_drafts: null
-limit_posts: 0
-future:      true
-unpublished: false
-
-# Plugins
-whitelist: []
-
 # Conversion
 markdown:    kramdown
-highlighter: rouge
-lsi:         false
 excerpt_separator: "\n\n"
 
 # Github Flavor Markdown nom nom
