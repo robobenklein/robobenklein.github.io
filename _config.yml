@@ -4,8 +4,6 @@ email: robobenklein@robosane.net
 description: >
   Just a collection of my experiences, stuff I learned, tips, tricks, and whatnot as
   I work with various new or open source technologies.
-baseurl: ""
-url: "https://robobenklein.github.io"
 twitter_username: robobenklein
 github_username: robobenklein
 
@@ -22,7 +20,6 @@ destination: ./_site
 plugins:     ./_plugins
 layouts:     ./_layouts
 data_source: ./_data
-collections: null
 
 # Filtering Content
 show_drafts: null
@@ -32,7 +29,6 @@ unpublished: false
 
 # Plugins
 whitelist: []
-gems:      []
 
 # Conversion
 markdown:    kramdown
@@ -43,17 +39,3 @@ excerpt_separator: "\n\n"
 # Github Flavor Markdown nom nom
 kramdown:
   input: GFM
-  auto_ids:       true
-  footnote_nr:    1
-  entity_output:  as_char
-  toc_levels:     1..6
-  smart_quotes:   lsquo,rsquo,ldquo,rdquo
-  enable_coderay: false
-
-  coderay:
-    coderay_wrap:              div
-    coderay_line_numbers:      inline
-    coderay_line_number_start: 1
-    coderay_tab_width:         4
-    coderay_bold_every:        10
-    coderay_css:               style
