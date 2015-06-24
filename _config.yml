@@ -7,6 +7,8 @@ description: >
 twitter_username: robobenklein
 github_username: robobenklein
 
+
+
 defaults:
   -
     scope:
@@ -22,3 +24,39 @@ excerpt_separator: "\n\n"
 # Github Flavor Markdown nom nom
 kramdown:
   input: GFM
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  use_coderay: true
+
+  coderay:
+    coderay_line_numbers: nil
+    coderay_line_numbers_start: 1
+    coderay_tab_width: 4
+    coderay_bold_every: 10
+    coderay_css: class
+
+highlighter: pygments
+
+timezone: America/New_York
+future: true
+
+owner:
+  name: Ben Klein
+  avatar: avatar.jpg
+  bio: "Just keeping up with the newest tech."
+  email: robobenklein@robosane.net
+  twitter: robobenklein
+  github: robobenklein
+  stackexchange: robobenklein
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+permalink: /:categories/:title/
+
+paginate: 5
+
+exclude: ["lib", "config.rb", "Capfile", "config", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
