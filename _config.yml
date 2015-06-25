@@ -8,7 +8,6 @@ twitter_username: robobenklein
 github_username: robobenklein
 
 
-
 defaults:
   -
     scope:
@@ -44,8 +43,8 @@ future: true
 
 owner:
   name: Ben Klein
-  avatar: avatar.jpg
-  bio: "Just keeping up with the newest tech."
+  avatar: RobobenkleinJustRbright256x256.png
+  bio: "Owner of Robosane, Tech Enthusiast, and Linux Gamer."
   email: robobenklein@robosane.net
   twitter: robobenklein
   github: robobenklein
