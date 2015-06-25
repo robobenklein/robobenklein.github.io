@@ -12,6 +12,7 @@ modified: 2015-06-25
 TLDR:
 
 Here's what I am:
+
 * a Highschool Senior.
 * the Lead Programmer for the L&N STEMpunks FRC Robotics Team.
 * a Team Fortress 2 UGC Steel Medic for *Fate's Error*.
@@ -25,6 +26,7 @@ Here's what I am:
 * and a human.
 
 And here's what I am *not*:
+
 * a Windows Enthusiast.
 * an OSX user.
 * a sports fan.
