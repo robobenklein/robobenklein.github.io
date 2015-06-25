@@ -4,7 +4,7 @@ title: Mumble URLs on Ubuntu
 modified:
 categories: mumble ubuntu
 description:
-tags: [mumble url ubuntu linux gaming]
+tags: [mumble, ubuntu, gaming]
 image:
   background: triangular.png
 comments: false
