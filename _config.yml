@@ -48,7 +48,7 @@ owner:
   email: robobenklein@robosane.net
   twitter: robobenklein
   github: robobenklein
-  stackexchange: robobenklein
+  stackexchange: https://askubuntu.com/users/162914/robobenklein
 
 sass:
   sass_dir: _sass
