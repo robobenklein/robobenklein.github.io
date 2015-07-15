@@ -6,10 +6,10 @@ categories: {{ dir }}
 description:
 tags: []
 image:
-  feature:
-  credit:
-  creditlink:
-  background:
+  feature: #filename in images/ for post header
+  credit: #text to show as image credit
+  creditlink: #when credit is clicked.
+  background: #filename in images/ to use as page background
 comments: false
 share: true
 published: true
