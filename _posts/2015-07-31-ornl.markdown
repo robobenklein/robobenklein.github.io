@@ -1,0 +1,38 @@
+---
+layout: post
+title: ORNL
+modified:
+categories: ornl
+description: My ORNL Internship Experience
+tags: [css, html, hpc, drupal, ornl]
+image:
+  feature: sc-summit.png
+  credit: ORNL OLCF
+  creditlink: http://www.ornl.gov/ornl/news/news-releases/2014/oak-ridge-to-acquire-next-generation-supercomputer
+  background: triangular.png
+comments: false
+share: true
+published: true
+date: 2015-07-31T10:15:26-04:00
+---
+
+It's a pretty cool place if you didn't already realize.
+
+I was one of lucky few who were offered a paid internship at the ORNL Computing Facility, where I worked alongside the Computing and Facilities Director, Jim Rogers.
+
+Although I was sitting only 20 meters from the once fastest supercomputer in the world, I didn't do much with it. Most of my work was put into web design, CMS (Drupal) administration, and only nearing the end did I begin to do work using data from Titan.
+
+The website in question was Drupal, something I had heard of when looking for a CMS, but I decided in favor of Joomla. I now realize I made the right decision.
+
+Drupal, firstly, had a completely different naming scheme than Joomla, which made things very confusing in my head.
+
+For Example:  
+"Modules":  
+Joomla: The Items which compose non-primary content spaces (like sidebars)  
+Drupal: Plugins which extend the functionality of Drupal (eCommerce, security, extensions)  
+Honestly they should just be called 'Plugins' in Drupal, I mean that's what they are.
+
+Elsewhere it was nightmares trying to get things to work like they should, although admittedly it was almost all the modules, not Drupal's fault.
+
+The default template had no excuses though. It was a fixed-width non-mobile-friendly page with images where they could have used a single line of CSS to get a better or same result. After a hundred line changes or so of manual editing, I was able to correct a majority of the issues and make it usable for mobile. I'm sure there's some free template out there that fixes this, but of hours searching my team member and I were unable to find anything suitable for our type of content. With about the same time I spent on Robosane's template, it should have been fairly simple as Drupal's templating system is much less complex.
+
