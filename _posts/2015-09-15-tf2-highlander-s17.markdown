@@ -6,9 +6,9 @@ categories:
 description:
 tags: []
 image:
-  feature: #filename in images/ for post header
-  credit: #text to show as image credit
-  creditlink: #when credit is clicked.
+  feature: S17newsmaproom.png
+  credit: UGC League S17 Signups Open
+  creditlink: http://www.ugcleague.com/home_tf2h_newsitem.cfm?newsitem=3411
   background: #filename in images/ to use as page background
 comments: false
 share: true
