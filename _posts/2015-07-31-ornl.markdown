@@ -8,7 +8,7 @@ tags: [css, html, hpc, drupal, ornl]
 image:
   feature: sc-summit.png
   credit: ORNL OLCF
-  creditlink: http://www.ornl.gov/ornl/news/news-releases/2014/oak-ridge-to-acquire-next-generation-supercomputer
+  creditlink: https://www.olcf.ornl.gov/summit/
   background: triangular.png
 comments: false
 share: true
