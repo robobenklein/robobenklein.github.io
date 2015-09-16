@@ -4,7 +4,7 @@ title: TF2 Highlander S17
 modified:
 categories:
 description:
-tags: []
+tags: [tf2, steam, ugc]
 image:
   feature: S17newsmaproom.png
   credit: UGC League S17 Signups Open
