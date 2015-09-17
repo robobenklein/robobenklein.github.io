@@ -1,0 +1,195 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Happy Birthday!</title>
+  <meta name="description" content="Birthday">
+
+  <style>
+  @import url(https://fonts.googleapis.com/css?family=Alegreya+Sans:100italic);
+  body {
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    font-family: 'Alegreya Sans', sans-serif;
+  }
+  </style>
+</head>
+
+<body>
+  <canvas id='canv'></canvas>
+
+  <script type="text/javascript">
+  var c = document.getElementById('canv'),
+  $ = c.getContext('2d');
+var num = 700,
+  s = 0.0075,
+  sp = 0.033,
+  rot = 0.2,
+  u = 0;
+
+var draw = function($) {
+    var i, j, p, g,
+      k = 1 + 1 / num,
+      t = new Date() / 1000,
+      r = new mtx().rotY(-t * 0.123).rotX(0.8).rotZ(rot);
+
+    for (i = 0; i < num; i++) {
+      j = t * sp + i * k;
+      p = new Pt();
+      p.x = rnd(j);
+      p.y = j % 1;
+      p.z = rnd(j + 10000);
+      p.x -= 0.5;
+      p.y -= 0.5;
+      p.z -= 0.5;
+      p.y *= 5;
+      p = p.rot(r);
+      p.x += Math.sin(t * 0.15 + i) * 0.3;
+      p.z += 0.5;
+
+      if (p.z <= 0) continue;
+
+      $.save();
+      $.globalAlpha *= 1 / (p.z + 0.6);
+      $.translate(p.x / p.z, p.y / p.z);
+      $.scale(s / p.z, s / p.z);
+      $.rotate(rot);
+
+      g = $.createRadialGradient(0, -0.4, 0, 0, -0.4, 4);
+      g.addColorStop(0, 'hsla(' + i * u + ',100%,50%,1)');
+      g.addColorStop(1, 'hsla(0,0%,0%,0)');
+      $.globalCompositeOperation = 'source-over';
+      $.fillStyle = g;
+      $.beginPath();
+      $.moveTo(0, 1.8);
+      $.quadraticCurveTo(2, 0, 2, -1);
+      $.quadraticCurveTo(2, -2, 1, -2);
+      $.quadraticCurveTo(0, -2, 0, -1);
+      $.quadraticCurveTo(0, -2, -1, -2);
+      $.quadraticCurveTo(-2, -2, -2, -1);
+      $.quadraticCurveTo(-2, 0, 0, 1.8);
+      $.fill();
+      $.restore();
+    }
+  }
+  /*
+  mtx() adapted from the multi-dimensional matrix
+  portion of Matrix3D.js:
+  https://gist.github.com/f5io/7466669
+  */
+var mtx = function() {}
+mtx.prototype = {
+
+  0: 1,
+  1: 0,
+  2: 0,
+  3: 0,
+  4: 1,
+  5: 0,
+  6: 0,
+  7: 0,
+  8: 1,
+
+  md: function() {
+    var a = this,
+      b = arguments,
+      mx = new mtx();
+
+    mx[0] = a[0] * b[0] + a[1] * b[3] + a[2] * b[6];
+    mx[1] = a[0] * b[1] + a[1] * b[4] + a[2] * b[7];
+    mx[2] = a[0] * b[2] + a[1] * b[5] + a[2] * b[8];
+    mx[3] = a[3] * b[0] + a[4] * b[3] + a[5] * b[6];
+    mx[4] = a[3] * b[1] + a[4] * b[4] + a[5] * b[7];
+    mx[5] = a[3] * b[2] + a[4] * b[5] + a[5] * b[8];
+    mx[6] = a[6] * b[0] + a[7] * b[3] + a[8] * b[6];
+    mx[7] = a[6] * b[1] + a[7] * b[4] + a[8] * b[7];
+    mx[8] = a[6] * b[2] + a[7] * b[5] + a[8] * b[8];
+
+    return mx;
+  },
+
+  rotX: function(t) {
+    var mx = Math.cos(t),
+      s = Math.sin(t);
+    return this.md(1, 0, 0, 0, mx, -s, 0, s, mx);
+  },
+
+  rotY: function(t) {
+    var mx = Math.cos(t),
+      s = Math.sin(t);
+    return this.md(mx, 0, s, 0, 1, 0, -s, 0, mx);
+  },
+
+  rotZ: function(t) {
+    var mx = Math.cos(t),
+      s = Math.sin(t);
+    return this.md(mx, -s, 0, s, mx, 0, 0, 0, 1);
+  }
+};
+
+var Pt = function() {}
+
+Pt.prototype = {
+
+  x: 0,
+  y: 0,
+  z: 0,
+
+  rot: function(m) {
+    var p = new Pt();
+
+    p.x = m[0] * this.x + m[1] * this.y + m[2] * this.z;
+    p.y = m[3] * this.x + m[4] * this.y + m[5] * this.z;
+    p.z = m[6] * this.x + m[7] * this.y + m[8] * this.z;
+
+    return p;
+  }
+};
+
+var rnd = function(n) {
+  for (var i = 0; i < 6; i++) {
+    n ^= n << 3;
+    n ^= n >> 2;
+  }
+  return (n & 0xffffff) / 0x1000000;
+}
+var _u = 0;
+var anime = function() {
+  var g1 = $.createLinearGradient(-1, -2, 1, 2);
+  var sc = Math.max(c.width, c.height);
+  $.fillStyle = 'hsla(260, 95%, 4%, 1)';
+  $.fillRect(0, 0, c.width, c.height);
+  $.save();
+  $.translate(c.width * 0.5, c.height * 0.5);
+  $.scale(sc, sc);
+  draw($);
+  $.restore();
+  _u-=.2;
+  var t = "happy birthday".split("").join(String.fromCharCode(0x2004));
+  $.font = "Italic 2.5em Alegreya Sans";
+  $.fillStyle = 'hsla('  + _u + ',90%,50%,.5)';
+  $.textBaseline = 'middle';
+  $.fillText(t, (c.width - $.measureText(t).width) * 0.5, c.height * 0.5);
+}
+
+window.addEventListener('resize', function resize() {
+  c.width = window.innerWidth;
+  c.height = window.innerHeight;
+  anime();
+  return resize;
+}(), false);
+
+function run() {
+  u -= .005;
+  window.requestAnimationFrame(run);
+  anime();
+}
+run();
+  </script>
+
+  </script>
+</body>
+</html>
