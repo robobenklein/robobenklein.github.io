@@ -2,9 +2,9 @@
 layout: post
 title: TF2 Highlander S17
 modified:
-categories:
+categories: tf2
 description:
-tags: [tf2, steam, ugc]
+tags: [tf2, ugc, highlander, season17]
 image:
   feature: S17newsmaproom.png
   credit: UGC League S17 Signups Open
