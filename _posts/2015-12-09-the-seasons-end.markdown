@@ -18,7 +18,7 @@ date: 2015-12-09T20:02:59-05:00
 
 UGC Highlander Season 17 has finally come to a stop.
 
-For the first time, I had a team I was proud of.
+For the first time, [I had a team I was proud of.](http://www.ugcleague.com/team_page.cfm?clan_id=18520)
 
 Having Robosane host a team was actually a great success. We had a good number of players and subs, so that we weren't scrambling every match to find a ringer.
 As you probably know, I played medic, and while doing so, I found a number of tips I think all competitive players should have.
