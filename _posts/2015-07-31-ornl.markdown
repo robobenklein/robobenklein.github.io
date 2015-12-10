@@ -4,7 +4,7 @@ title: ORNL
 modified:
 categories: ornl
 description: My ORNL Internship Experience
-tags: [css, html, hpc, drupal, ornl]
+tags: [hpc, drupal, ornl]
 image:
   feature: sc-summit.png
   credit: ORNL OLCF
@@ -35,4 +35,3 @@ Honestly they should just be called 'Plugins' in Drupal, I mean that's what they
 Elsewhere it was nightmares trying to get things to work like they should, although admittedly it was almost all the modules, not Drupal's fault.
 
 The default template had no excuses though. It was a fixed-width non-mobile-friendly page with images where they could have used a single line of CSS to get a better or same result. After a hundred line changes or so of manual editing, I was able to correct a majority of the issues and make it usable for mobile. I'm sure there's some free template out there that fixes this, but of hours searching my team member and I were unable to find anything suitable for our type of content. With about the same time I spent on Robosane's template, it should have been fairly simple as Drupal's templating system is much less complex.
-
