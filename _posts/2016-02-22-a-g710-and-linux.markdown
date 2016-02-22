@@ -1,0 +1,56 @@
+---
+layout: post
+title: A G710+ and Linux
+modified:
+categories: hardware
+description:
+tags: [keyboard, tech, hardware, ubuntu]
+image:
+  feature: g710_closeup.png
+  credit: My G710+
+  creditlink: #when credit is clicked.
+  background: triangular.png
+comments: false
+share: true
+published: true
+date: 2016-02-22T13:02:20-05:00
+---
+
+I am a diehard linux user.
+
+No substitute, my OS must be open source, but when big name brands and companies conflict with my ideals, I generally don't want anything to do with them.
+
+I began shopping for a new keyboard late last year (Nov- 2015) and had narrowed down my choices fairly well, with a G710+ on that list.
+
+Doing my research, I found that many people had been complaining about this keyboard's compatibility with Linux systems, otherwise I would have immediately bought the keyboard on the spot.
+
+There were a few problems I found that the online communities has been talking about:  
+ 1. The keyboard's audio/multimedia controls would cause '6' to be spammed during bootup, which would be a problem for me since I use [FDE](https://en.wikipedia.org/wiki/Disk_encryption).
+ 2. The keyboard's lighting would be hardware controllable only.
+ 3. The M and G keys would not function in their proper ways.
+
+After working with this keyboard for 2 months, I can proudly say none of these are an issue at all, and I would glady recommend a G710+ to Linux users.
+
+The only problem I directly had to solve was fixed thanks to help from [Wattos' Linux Driver](https://github.com/Wattos/logitech-g710-linux-driver). This driver enabled the G and M keys properly and gave me script control over the lighting in all keys.
+
+Even without the custom driver, the G710+ worked just fine the first time I plugged it in. The issue with the audio and '6' spam seems to have been completely resolved (tested on Ubuntu) and the audio controls work without extra configuration.
+
+The passthrough USB port has been extremely handy in conjunction with my G930 headset, which also works perfectly out-of-the-box with Ubuntu.
+
+### Now in my opinion:  
+
+The lighting is excellent with 4 levels of brightness, and the layout feels perfectly spaced for casual and extremely fast typing.
+
+The palm rest was a must for me, since I always type with my hands resting on a surface, the included attaching rest integrated very well and is great for my needs.
+
+The cord is a bit thick, although understandable containing two separate USB connections. The cord was very stiff coming out of the box, so I had to flex it around a bit before I could wire it through my desk setup. The cord is really intended to be used in a stationary setting, and does not do well if you want to have the keyboard in your lap.
+
+The keyboard is heavy, but understandable considering the number of cats it can support walking over it. I've had absolutely no problems with construction or design, in any parts.
+
+Finally, it would be nice if the 3 indicator LEDs (Numlock etc) also changed brightness, but instead they simply remain glaringly bright during midnight gaming sessions.
+
+
+Disagree or have more questions?  
+Feel free to reach me on Twitter @robobenklein or any other social media you find me on.
+
+Hope you enjoyed this review.
