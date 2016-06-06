@@ -9,13 +9,11 @@ comments: false
 modified: 2015-06-25
 ---
 
-TLDR:
-
 Here's what I am:
 
-* a Highschool Senior.
-* the Lead Programmer for the L&N STEMpunks FRC Robotics Team.
-* a Team Fortress 2 UGC Steel Medic for *Fate's Error*.
+* a Highschool Graduate.
+* the previous Lead Programmer for the L&N STEMpunks FRC Robotics Team.
+* a Team Fortress 2 enthusiast.
 * the Founder and Owner of Robosane.
 * a younger than average Systems Administrator.
 * an Ubuntu Addict.
@@ -35,3 +33,8 @@ And here's what I am *not*:
 * interested in politics.
 * interested in philosophy.
 * and everything else that isn't me.
+
+### My Programming Languages:
+* Python
+* Java
+* HTML(5)/CSS(3)
