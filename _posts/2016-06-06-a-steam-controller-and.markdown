@@ -58,7 +58,7 @@ Although the touchpads are *amazing*, the buttons needed some work.
 
 The AB/XY buttons are are somewhat plastic-y, enough that it will take some getting used to, their pressure curves make them feel somewhat mushy, although they've had no problems relaying input.
 
-The upper shoulder pads, however, have the opposite problem. They have nearly no click depth, and are very clicky. Some people make like the sharper click, but to me it sounds very light and cheap.  
+The upper shoulder pads, however, have the opposite problem. They have nearly no click depth, and are very clicky. Some people may like the sharper click, but to me it sounds very light and cheap.  
 They should use the same switches as the lower ones, which sound deeper and produce a better click feel when pressed in completely.
 
 Clicking on the touchpads and joystick is very natural, and takes about the right amount of force. They are very responsive and the touchpads are decently precise.
