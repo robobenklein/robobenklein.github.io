@@ -29,7 +29,7 @@ There were a few problems I found that the online communities has been talking a
  2. The keyboard's lighting would be hardware controllable only.
  3. The M and G keys would not function in their proper ways.
 
-After working with this keyboard for 2 months, I can proudly say none of these are an issue at all, and I would glady recommend a G710+ to Linux users.
+After working with this keyboard for 2 months, I can proudly say none of these are an issue at all, and I would gladly recommend a G710+ to Linux users.
 
 The only problem I directly had to solve was fixed thanks to help from [Wattos' Linux Driver](https://github.com/Wattos/logitech-g710-linux-driver). This driver enabled the G and M keys properly and gave me script control over the lighting in all keys.
 
