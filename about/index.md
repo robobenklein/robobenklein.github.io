@@ -2,9 +2,9 @@
 layout: page
 title: Who is this?
 image:
-  feature: abstract-5.jpg
-  credit: dargadgetz
-  creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
+  feature: spacex-falcon-9-rocket-landing.jpg
+  credit: SpaceX
+  creditlink: http://www.spacex.com/
 comments: false
 modified: 2016-06-07
 ---
@@ -12,14 +12,15 @@ modified: 2016-06-07
 Here's what I am:
 
 * a Highschool Graduate.
+* a Computer Science major
 * the previous Lead Programmer for the L&N STEMpunks FRC Robotics Team.
 * a Team Fortress 2 enthusiast.
 * the Founder and Owner of Robosane.
 * a younger than average Systems Administrator.
-* an Ubuntu Addict.
+* an Ubuntu & Linux Addict.
 * a hacker.
-* a Web Designer. (HTML CSS JS jQuery Joomla)
-* a Programmer in Python, Java, Javascript, Shell or Bash, C++, PHP, Ruby, Fish, and maybe some others I'm not thinking about right now.
+* a Web Designer. (HTML/Pug, CSS, Node/JS, PHP/Joomla)
+* a Programmer in Python, Java, Javascript, Node, Shell or Bash, C++, and maybe some others I'm not thinking about right now.
 * a community leader.
 * and a human.
 
@@ -31,8 +32,6 @@ And here's what I am *not*:
 * a historian.
 * a mathematician.
 * interested in politics.
-* interested in philosophy.
-* and everything else that isn't me.
 
 ### My Programming Languages:
 * Python
