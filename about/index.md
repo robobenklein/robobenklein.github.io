@@ -11,18 +11,16 @@ modified: 2016-06-07
 
 Here's what I am:
 
-* a Highschool Graduate.
-* a Computer Science major
+* a CS student at UTK
 * the previous Lead Programmer for the L&N STEMpunks FRC Robotics Team.
 * a Team Fortress 2 enthusiast.
 * the Founder and Owner of Robosane.
 * a younger than average Systems Administrator.
 * an Ubuntu & Linux Addict.
-* a hacker.
+* a [hacker](http://www.catb.org/jargon/html/H/hacker.html).
 * a Web Designer. (HTML/Pug, CSS, Node/JS, PHP/Joomla)
-* a Programmer in Python, Java, Javascript, Node, Shell or Bash, C++, and maybe some others I'm not thinking about right now.
-* a community leader.
-* and a human.
+* a Programmer in Python, Java, Javascript, Node, Shell or Bash, C++, and maybe some other languages
+* and a human. (I think...)
 
 And here's what I am *not*:
 
@@ -31,9 +29,9 @@ And here's what I am *not*:
 * a sports fan.
 * a historian.
 * a mathematician.
-* interested in politics.
 
 ### My Programming Languages:
-* Python
+* Python 2 & 3
+* Shell/bash/sh
 * Java
 * HTML(5)/CSS(3)
