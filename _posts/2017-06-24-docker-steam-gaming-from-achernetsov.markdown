@@ -228,6 +228,15 @@ How about TIS-100?
 
 ![GetThreadContext Failed](/images/wine-gc-error-thread-context.png)
 
+And then after those errors, we see,
+
+![Wine internal error: invalid parameters](/images/docker-wine-internal-errors-invalid-parameters.png)
+
+Steam thinks these games are still running, you can kill them with task manager:
+```bash
+WINEPREFIX="$HOME/win32" WINEARCH=win32 wine taskmgr
+```
+
 Hmm, alright, let's look for something else...
 
 What about Super Hexagon?
