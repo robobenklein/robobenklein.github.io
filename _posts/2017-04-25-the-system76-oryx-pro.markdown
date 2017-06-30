@@ -85,4 +85,4 @@ I've heard this from a few places around the web before and after I bought my Or
 **$1995.00** for specs as mentioned above, at time of purchase.  
 For the time I was searching laptops, this was surprisingly very affordable. Similarly spec'd laptops from others like Dell either didn't meet my requirements, or sometimes were $200 more expensive than an equivalently spec'd Oryx. This was surprising at first, since System76 felt like such a niche market that I'm impressed how their prices can stay so reasonable.
 
-Nonetheless, my parent's didn't exactly smile as the two thousand dollar tag, as I don't think they've ever spent more than $700 on a computer, but it's my money, and I can sufficiently say that I made a choice I'm happy with.
+Nonetheless, my parents didn't exactly smile at the two thousand dollar tag, as I don't think they've ever spent more than $700 on a computer, but it's my money, and I can sufficiently say that I made a choice I'm happy with.
