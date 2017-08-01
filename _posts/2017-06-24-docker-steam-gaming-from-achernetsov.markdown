@@ -70,7 +70,7 @@ Jun 24 18:23:37 robo-unseptium systemd[1]: Stopped NVIDIA Docker plugin.
 -- Unit nvidia-docker.service has finished shutting down.
 ```
 
-And then the nvidiaa-docker program says:
+And then the nvidia-docker program says:
 
 ```
 # nvidia-docker run --rm nvidia/cuda nvidia-smi
@@ -244,6 +244,19 @@ What about Super Hexagon?
 ![That works](/images/super-hexagon-docker-wine-working.png)
 
 Good, at least one game worked. Although there's still no audio yet.
+
+Now, let's take a look again at why 140 and TIS-100 didn't work...
+
+Reddit u/megajambo suggested I'm missing dotnet4/45 so let's try grabbing that via winetricks,
+```bash
+export WINEPREFIX="$HOME/win32" WINEARCH=win32
+winetricks dotnet45
+# follow the GUI prompts to install 4.5
+```
+
+Once that's done, let's try those games again:
+
+
 
 ### To be continued...
 
