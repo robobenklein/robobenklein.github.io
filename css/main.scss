@@ -49,7 +49,6 @@ $on-laptop:        800px;
         "syntax-highlighting"
 ;
 
-// fix the highligher overflowing
-.highlight {
-    overflow-x: scroll;
+button.dl-active {
+    display: none !important;
 }
