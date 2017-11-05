@@ -49,7 +49,6 @@
         {% if page.share != false %}{% include social-share.html %}{% endif %}
       </footer>
     </div><!-- /.entry-content -->
-    {% if page.comments != false %}<section id="disqus_thread"></section><!-- /#disqus_thread -->{% endif %}
     {% if site.related_posts.size > 0 %}{% include read-more.html %}{% endif %}
   </article>
 </div><!-- /#main -->
@@ -60,7 +59,7 @@
   </footer>
 </div><!-- /.footer-wrapper -->
 
-{% include scripts.html %}	        
+{% include scripts.html %}
 
 </body>
 </html>

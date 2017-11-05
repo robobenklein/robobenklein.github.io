@@ -18,7 +18,7 @@ defaults:
 
 # Conversion
 markdown: kramdown
-excerpt_separator: "\n\n"
+excerpt_separator: "\n\n\n"
 
 # Github Flavor Markdown nom nom
 kramdown:
@@ -47,6 +47,7 @@ owner:
   bio: "Owner of Robosane, Tech Enthusiast, and Linux Gamer."
   email: robobenklein@robosane.net
   twitter: robobenklein
+  linkedin: robobenklein
   github: robobenklein
   stackexchange: https://askubuntu.com/users/162914/robobenklein
 
