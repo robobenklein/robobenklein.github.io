@@ -22,6 +22,7 @@ If you didn't already know, System76 sells Linux / Ubuntu laptops. The hardware 
 
 I bought the Oryx Pro in June of 2016 while working at ORNL, and since then I have not regretted my decision.
 
+
 The only con I have is the 2.5 hour battery life, but considering I prefer to bring my computing power with me, battery life was something I was willing to surrender. As a computer scientist, I'm never too worried about how far I am from an outlet.
 
 I have the orxp1, but newer versions are coming with 10xx series and 7th generation Intel processors.

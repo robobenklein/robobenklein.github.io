@@ -24,6 +24,7 @@ But for now, I guess that's not gonna happen. (I prefer support and available re
 
 Gnome Shell has had a number of issues in 17.10, hopefully getting fixed in 18.04. But for now, while I'm on 17.10 and fighting with a number of non-gui related issues, I just want a good desktop experience that I can get work done with.
 
+
 ### First act of business:
 
 **Install the non-Ubuntu Gnome Shell**
@@ -78,4 +79,3 @@ Waiting on some help with this one: [askubuntu.com/questions/974549/gnome-show-n
 Open the activities overview and search for something generic, ex. 'set', I only ever get 5 results, and can't show more.
 
 There's got to be a fix for this somehow, I mean, they've got room for search results from other timezones, software which isn't even installed yet, and passwords, but there isn't even a "show more" button for the primary application search.
-

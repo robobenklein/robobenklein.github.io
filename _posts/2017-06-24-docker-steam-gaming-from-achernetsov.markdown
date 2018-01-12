@@ -20,6 +20,7 @@ Just browsing reddit one day, [when this comes along.](https://github.com/achern
 
 This looks interesting, so [I said I would test it out](https://www.reddit.com/r/linux_gaming/comments/6j4tt8/docker_image_for_nvidiaalsa_host_with_winetricks/), let's get started.
 
+
 First things first, we need to get our nvidia docker evironment going. I'm on Ubuntu Zesty 17.04, so we need to get docker-ce from the 'edge' branch since there isn't a stable release yet.
 
 Nvidia-docker also doesn't yet have support, but that's no problem, we can build a package ourselves from their repo.
