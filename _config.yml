@@ -31,12 +31,12 @@ kramdown:
   toc_levels: 1..6
   syntax_highlighter: coderay
 
-  syntax_highlighter_opts:
-    line_numbers: nil
-    line_numbers_start: 1
-    tab_width: 4
-    bold_every: 10
-    css: class
+  # syntax_highlighter_opts:
+  #   line_numbers: nil
+  #   line_numbers_start: 1
+  #   tab_width: 4
+  #   bold_every: 10
+  #   css: class
 
 highlighter: rouge
 
@@ -63,7 +63,7 @@ paginate: 5
 
 exclude: ["lib", "config.rb", "Capfile", "config", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
 
-gems:
+plugins:
   - jekyll-sitemap
   - jekyll-lunr-js-search
   - jekyll-paginate
