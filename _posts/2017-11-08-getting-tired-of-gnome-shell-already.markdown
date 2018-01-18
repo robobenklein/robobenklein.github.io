@@ -4,7 +4,7 @@ title: Getting Tired of Gnome Shell Already...
 modified:
 categories: ubuntu
 description:
-tags: [gnome, ubuntu, de, gui]
+tags: [gnome, ubuntu, linux, gui]
 image:
   feature: 17-10-25-screenfetch.png
   credit: My Desktop as of October 2017

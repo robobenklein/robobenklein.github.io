@@ -4,7 +4,7 @@ title: An SSD
 modified:
 categories: hardware
 description:
-tags: [ssd, hardware, harddrive, hdd, drive, samsung]
+tags: [hardware, samsung]
 image:
   feature:
   credit:
@@ -39,4 +39,3 @@ Of the many things I noticed after switching drives, is that just by booting fro
 Although of course, that's nothing compared to the *just as promised* 520 MB/s from the 850 SSD. If you're buying a hard drive and don't mind paying some 20% more for it, the performance is absolutely worth it.
 
 TLDR; Bought an SSD, reduced time to start things by 90% and increased performance dramatically.
-

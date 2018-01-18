@@ -4,7 +4,7 @@ title: A G710+ and Linux
 modified:
 categories: hardware
 description:
-tags: [keyboard, tech, hardware, ubuntu]
+tags: [keyboard, tech, hardware, linux]
 image:
   feature: g710_closeup.png
   credit: My G710+

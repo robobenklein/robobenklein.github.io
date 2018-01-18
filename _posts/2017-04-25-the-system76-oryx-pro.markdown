@@ -2,7 +2,7 @@
 layout: post
 title: The System76 Oryx Pro
 modified:
-categories:
+categories: hardware
 description:
 tags: [system76, linux, hardware]
 image:

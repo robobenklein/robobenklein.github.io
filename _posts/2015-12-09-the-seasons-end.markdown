@@ -2,9 +2,9 @@
 layout: post
 title: The Season's End
 modified:
-categories: tf2
+categories: gaming
 description:
-tags: [tf2, ugc, highlander, season17]
+tags: [tf2, gaming]
 image:
   feature: tf2_medic_sfm_by_aerioltf-d8fg6az.jpg
   credit: AeriolTF

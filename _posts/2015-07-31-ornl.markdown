@@ -2,9 +2,9 @@
 layout: post
 title: ORNL
 modified:
-categories: ornl
+categories: work
 description: My ORNL Internship Experience
-tags: [hpc, drupal, ornl]
+tags: [work, hpc, drupal, ornl]
 image:
   feature: sc-summit.png
   credit: ORNL OLCF

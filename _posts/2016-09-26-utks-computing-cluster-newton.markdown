@@ -4,7 +4,7 @@ title: "UTK's Computing Cluster: Newton"
 modified:
 categories: supercomputing
 description:
-tags: [newton, software, chemicaldev, pgs, linux]
+tags: [utk, software, chemicaldev, linux]
 image:
   feature: pgs.js.png
   credit: PGS.js

@@ -2,7 +2,7 @@
 layout: post
 title: Docker Steam Gaming From Achernetsov
 modified:
-categories:
+categories: gaming
 description:
 tags: [nvidia, docker, ubuntu, steam, gaming, reddit]
 image:

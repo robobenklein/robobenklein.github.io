@@ -2,9 +2,9 @@
 layout: post
 title: Mumble URLs on Ubuntu
 modified:
-categories:
+categories: gaming
 description:
-tags: [mumble, ubuntu, gaming]
+tags: [software, ubuntu, gaming]
 image:
   background: triangular.png
 comments: false

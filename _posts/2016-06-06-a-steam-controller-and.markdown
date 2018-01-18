@@ -2,9 +2,9 @@
 layout: post
 title: "A Steam Controller..."
 modified:
-categories:
+categories: gaming, hardware
 description:
-tags: [steam, steam-controller, steamos, gaming]
+tags: [steam, hardware, gaming]
 image:
   feature: steamcontroller.jpg
   credit: Steam Controller
