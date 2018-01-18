@@ -5,8 +5,6 @@ modified:
 categories: gaming
 description:
 tags: [software, ubuntu, gaming]
-image:
-  background: triangular.png
 comments: false
 share: true
 date: 2015-06-24T18:09:41-04:00

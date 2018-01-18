@@ -9,7 +9,7 @@ image:
   feature: code_blend_tile.jpg #filename in images/ for post header
   credit: #text to show as image credit
   creditlink: #when credit is clicked.
-  background: #filename in images/ to use as page background
+  background: cat-bgs/hex-parallel-tri.png #filename in images/ to use as page background
 comments: false
 share: true
 published: true
