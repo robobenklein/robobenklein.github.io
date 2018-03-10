@@ -76,3 +76,11 @@ So since Dotbot covers all my use cases well and is still very flexible, I think
 As I'm still getting everything tracked, you can follow my dotfile adventure from my github repo, for whatever reason you'd want to do that...
 
 [GitHub.com/**robobenklein**/**configs**](https://github.com/robobenklein/configs)
+
+## March 2018 Addendum
+
+I've been happy with dotbot for awhile now, and I've come to find two features complete my experience: Globbing and Conditionals.
+
+If you don't want to wait on upstream, I've added these two features onto my [own fork](https://github.com/robobenklein/dotbot). ([Shell conditions](https://github.com/robobenklein/dotbot/tree/shell-conditions) added in respective branch on top of globbing.)
+
+These features should be fully backwards-compatible so you should be able to try them out without any big changes. If you find any bugs before these changes are merged upstream, shoot me a message just about anywhere, or after they get merged, just tag me on Github so I can take a look at fixing it!
