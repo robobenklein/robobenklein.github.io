@@ -1,11 +1,11 @@
 <div class="read-more">
   {% for post in site.related_posts limit:1 %}
     <div class="read-more-header">
-      <a href="{{ site.url }}{{ page.previous.url }}" class="read-more-btn">Other Posts</a>
+      <a href="{{ site.url }}" class="read-more-btn">Other Posts</a>
     </div><!-- /.read-more-header -->
     <div class="read-more-content">
       <h3><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h3>
-      <p>{% if post.description %}{{ post.description }}{% else %}{{ post.content | strip_html | newline_to_br | strip_newlines | replace: '<br /><br />', '<br />' | truncate: 140 }}&hellip;{% endif %} <a href="{{ site.url }}{{ post.url }}">Continue reading</a></p>
+      <p>{% if post.description %}{{ post.description }}{% else %}{{ post.content | strip_html | newline_to_br | strip_newlines | replace: '<br /><br />', '<br />' | truncate: 140 }}{% endif %} <br><a href="{{ site.url }}{{ post.url }}"><i>Continue reading...</i></a></p>
     </div><!-- /.read-more-content -->
   {% endfor %}
   <div class="read-more-list">
