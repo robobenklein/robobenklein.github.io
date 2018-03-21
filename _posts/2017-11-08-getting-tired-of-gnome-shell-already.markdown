@@ -6,8 +6,8 @@ categories: ubuntu
 description:
 tags: [gnome, ubuntu, linux, gui]
 image:
-  feature: 17-10-25-screenfetch.png
-  credit: My Desktop as of October 2017
+  feature: fetches/neofetch-2018-03-21.png
+  credit: My Desktop
   creditlink: #when credit is clicked.
   background: #filename in images/ to use as page background
 comments: false
@@ -79,3 +79,35 @@ Waiting on some help with this one: [askubuntu.com/questions/974549/gnome-show-n
 Open the activities overview and search for something generic, ex. 'set', I only ever get 5 results, and can't show more.
 
 There's got to be a fix for this somehow, I mean, they've got room for search results from other timezones, software which isn't even installed yet, and passwords, but there isn't even a "show more" button for the primary application search.
+
+
+> ![Desktop Result](/images/17-10-25-screenfetch.png)
+>
+> Desktop as of Oct. 2017.
+
+## March 2018 Addendum
+
+I've been happy enough to continue using Gnome Shell, but there were a few more things I changed.
+
+Problems I still have:
+
+ * Network refreshing does not work when connected to a network. (I just use nmcli mostly now anyways.)
+ * Application search results still only display up to 5 results...
+ * Overlay shaders in the compositor are not rendered in overview mode.
+
+The things I've added since last writing:
+
+### [ShellTile](https://extensions.gnome.org/extension/657/shelltile/)
+
+I've been missing out on tiling functions in Gnome, by default it only makes half-screen splits vertically. Now I can make splits quite naturally with any set of windows and it's surprisingly intuitive with only a single modifier key required to switch window management mode to 'tiling'.
+
+### [Unite](https://extensions.gnome.org/extension/1287/unite/)
+
+I missed a lot about Unity, but this extension brought enough back that I'm no longer set off by many subtle differences.
+
+This extension added options for the system tray, notifications location, and other tweaks to get a more Unity-esque experience. Although I don't use them all, the configurability is great.
+
+
+> ![Desktop Result](/images/fetches/neofetch-2018-03-21.png)
+>
+> Desktop as of Mar. 2018.
