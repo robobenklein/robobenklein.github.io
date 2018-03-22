@@ -144,6 +144,7 @@ body {
 	height: 200%;
 	min-height: $feature-image-height;
 	overflow: hidden;
+	filter: brightness(70%);
 
 	&:after {
 		content: '';

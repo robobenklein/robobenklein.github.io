@@ -57,6 +57,8 @@ sass:
   sass_dir: _sass
   style: compressed
 
+dark_mode: true
+
 permalink: /:categories/:title/
 
 paginate: 5
