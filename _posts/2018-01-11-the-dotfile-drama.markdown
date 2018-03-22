@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Dotfile Drama
-modified:
+modified: 2018-03-20
 categories: dotfiles
 description:
 tags: [linux, github]

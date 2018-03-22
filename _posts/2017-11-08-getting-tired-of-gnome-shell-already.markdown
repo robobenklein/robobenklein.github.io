@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Getting Tired of Gnome Shell Already...
-modified:
+modified: 2018-03-21
 categories: ubuntu
 description:
 tags: [gnome, ubuntu, linux, gui]
