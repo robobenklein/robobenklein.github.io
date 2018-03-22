@@ -60,7 +60,7 @@
 	  {% endfor %}
 		{% if site.dark_mode %}
 		<li>
-			<a onclick="document.querySelector('head').innerHTML += '&lt;link rel=&quot;stylesheet&quot; href=&quot;/assets/css/dark.css&quot; type=&quot;text/css&quot;/&gt;';">Dark Mode</a>
+			<a onclick="toggle_dark_mode()">Dark Mode</a>
 		</li>
 		{% endif %}
 	</ul><!-- /.dl-menu -->

@@ -9,7 +9,7 @@ image:
   feature: oryxpsystem76-promo1.jpg
   credit: System76
   creditlink: https://system76.com/laptops/oryx
-  background: triangular.png
+  background: cat-bgs/triangular.png
 comments: false
 share: true
 published: true
