@@ -58,7 +58,7 @@
 	    {% endif %}
 	    <li><a href="{{ domain }}{{ link.url }}" {% if link.url contains 'http' %}target="_blank"{% endif %}>{{ link.title }}</a></li>
 	  {% endfor %}
-		{% if site.dark_mode %}
+		{% if site.enable_darkness %}
 		<li>
 			<a onclick="toggle_dark_mode()">Dark Mode</a>
 		</li>

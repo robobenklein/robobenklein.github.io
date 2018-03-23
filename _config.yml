@@ -8,6 +8,8 @@ description: >
 twitter_username: robobenklein
 github_username: robobenklein
 
+enable_darkness: true
+
 google_analytics: "UA-46859515-7"
 
 defaults:

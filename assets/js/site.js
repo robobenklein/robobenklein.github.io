@@ -37,7 +37,7 @@ function add_dark_style_link() {
 }
 
 function toggle_dark_mode() {
-  if (getCookie("dark_mode") == "enabled") {
+  if (getCookie("unhexium_dark_mode") == "enabled") {
     document.getElementById("dark_mode_style").remove();
     delete_cookie("unhexium_dark_mode");
   } else {
