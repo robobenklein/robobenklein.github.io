@@ -34,15 +34,19 @@
 
 <!-- For all browsers -->
 <link rel="stylesheet" href="{{ site.url }}/assets/css/main.css">
+<!-- Load Dark Mode if on -->
+<script>
+// this is before any libraries are loaded!
+dark_mode_link='<link id="dark_mode_style" rel="stylesheet" href="/assets/css/dark.css" type="text/css"/>'
+if ( document.cookie.match(/^(.*;)?\s*unhexium_dark_mode\s*=\s*[^;]+(.*)?$/) ) {
+  // document.querySelector('head').innerHTML += dark_mode_link;
+  document.write(dark_mode_link);
+}
+</script>
 <!-- Webfonts -->
 <link href="//fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic" rel="stylesheet" type="text/css">
 
 <meta http-equiv="cleartype" content="on">
-
-{% if site.dark_mode %}
-<!-- Load Dark Theme script -->
-<script src="{{ site.url }}/assets/js/dark.js"></script>
-{% endif %}
 
 <!-- Load Modernizr -->
 <script src="{{ site.url }}/assets/js/vendor/modernizr-2.6.2.custom.min.js"></script>

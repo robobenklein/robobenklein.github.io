@@ -16,6 +16,9 @@ function getCookie(cname) {
         }
     }
 }
+function delete_cookie(name) {
+  document.cookie = name +'=;path=/;expires=Thu, 01 Jan 1970 00:00:01 GMT;';
+}
 
 Element.prototype.remove = function() {
     this.parentElement.removeChild(this);
@@ -29,19 +32,23 @@ NodeList.prototype.remove = HTMLCollection.prototype.remove = function() {
 }
 
 function add_dark_style_link() {
-  document.querySelector('head').innerHTML += '<link id="dark_mode_style" rel="stylesheet" href="/assets/css/dark.css" type="text/css"/>';
-}
-
-if (getCookie("dark_mode") == "enabled") {
-  add_dark_style_link();
+  // dark_mode_link should have been set in the head when the dark mode was checked for
+  document.querySelector('head').innerHTML += dark_mode_link;
 }
 
 function toggle_dark_mode() {
   if (getCookie("dark_mode") == "enabled") {
     document.getElementById("dark_mode_style").remove();
-    setCookie("dark_mode", "disabled", 180);
+    delete_cookie("unhexium_dark_mode");
   } else {
     add_dark_style_link();
-    setCookie("dark_mode", "enabled", 180);
+    setCookie("unhexium_dark_mode", "enabled", 180);
   }
 }
+
+// Add auto-anchors to all specified levels of headers
+$(document).ready(function() {
+  $('h1,h2').filter('[id]').each(function () {
+    $(this).html('<a href="#'+$(this).attr('id')+'">' + $(this).text() + '</a>');
+  });
+});

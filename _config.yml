@@ -44,7 +44,7 @@ timezone: America/New_York
 future: true
 
 owner:
-  name: Ben Klein
+  name: Robobenklein
   avatar: robobenkleinBirdTransparent.png
   bio: "Owner of Robosane, Tech Enthusiast, and Linux Gamer."
   email: robobenklein@robosane.net
@@ -56,8 +56,6 @@ owner:
 sass:
   sass_dir: _sass
   style: compressed
-
-dark_mode: true
 
 permalink: /:categories/:title/
 
