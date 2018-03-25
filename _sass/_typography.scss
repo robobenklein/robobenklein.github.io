@@ -2,7 +2,7 @@
    Typography
    ========================================================================== */
 
-/* 
+/*
    Body
    ========================================================================== */
 
@@ -11,7 +11,7 @@ body {
 	color: $text-color;
 }
 
-/* 
+/*
    Headings
    ========================================================================== */
 
@@ -27,30 +27,30 @@ h1 {
 	}
 }
 
-/* 
+/*
    Links
    ========================================================================== */
 
-a { 
+a {
 	text-decoration: none;
-	color: $link-color; 
+	color: $link-color;
 
-	&:visited { 
-		color: lighten($link-color, 20); 
+	&:visited {
+		color: lighten($link-color, 20);
 	}
 
-	&:hover { 
-		color: darken($link-color, 20); 
-	}
-
-	&:focus { 
-		outline: thin dotted; 
+	&:hover {
 		color: darken($link-color, 20);
 	}
 
-	&:hover, 
-	&:active { 
-		outline: 0; 
+	&:focus {
+		outline: thin dotted;
+		color: darken($link-color, 20);
+	}
+
+	&:hover,
+	&:active {
+		outline: 0;
 	}
 }
 
@@ -60,7 +60,7 @@ a {
 	font-style: normal;
 }
 
-/* 
+/*
    Captions
    ========================================================================== */
 
@@ -71,7 +71,7 @@ figcaption {
 	color: lighten($text-color, 10);
 }
 
-/* 
+/*
    Notices
    ========================================================================== */
 
@@ -85,7 +85,7 @@ figcaption {
 	border-radius: 3px;
 }
 
-/* 
+/*
    Blockquotes
    ========================================================================== */
 
@@ -100,7 +100,7 @@ blockquote {
 	}
 }
 
-/* 
+/*
    Code
    ========================================================================== */
 
@@ -130,12 +130,12 @@ pre {
 
 	&::-webkit-scrollbar {
 		height: 12px;
-		background-color: #34362e;
-		border-radius: 0 0 4px 4px;
+		background-color: #24261e;
+		border-radius: 0 0 0px 0px;
 	}
 
 	&::-webkit-scrollbar-thumb:horizontal {
-		background-color: #6a6d5d;
-		border-radius: 4px;
+		background-color: #5a5d4d;
+		border-radius: 0px;
 	}
 }

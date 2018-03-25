@@ -56,3 +56,20 @@ body {
 #page .entry-content {
   background-color: #2b2b2b;
 }
+
+// OTHER
+pre {
+  &::-webkit-scrollbar {
+    background-color: #555555cc;
+    border-radius: 0px;
+  }
+
+  &::-webkit-scrollbar-thumb:horizontal {
+    background-color: #888888cc;
+    border-radius: 0px;
+  }
+}
+
+pre.highlight {
+  border: 1px solid #bbb;
+}
