@@ -33,7 +33,8 @@ NodeList.prototype.remove = HTMLCollection.prototype.remove = function() {
 
 function add_dark_style_link() {
   // dark_mode_link should have been set in the head when the dark mode was checked for
-  document.querySelector('head').innerHTML += dark_mode_link;
+  // document.querySelector('head').innerHTML += dark_mode_link;
+  $('head').append(dark_mode_link);
 }
 
 function toggle_dark_mode() {
