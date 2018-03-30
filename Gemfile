@@ -5,7 +5,7 @@ gem 'octopress'
 gem 'jekyll-sitemap'
 gem 'jekyll-paginate'
 gem 'kramdown'
-#gem 'jekyll-lunr-js-search'
+gem 'jekyll-lunr-js-search'
 
 gem 'github-pages', group: :jekyll_plugins
 

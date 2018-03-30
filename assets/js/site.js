@@ -50,6 +50,6 @@ function toggle_dark_mode() {
 // Add auto-anchors to all specified levels of headers
 $(document).ready(function() {
   $('h1,h2').filter('[id]').each(function () {
-    $(this).html('<a href="#'+$(this).attr('id')+'">' + $(this).text() + '</a>');
+    $(this).html('<a href="#'+$(this).attr('id')+'" class="auto-anchors">' + $(this).text() + '</a>');
   });
 });
