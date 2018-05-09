@@ -12,6 +12,9 @@ enable_darkness: true
 
 google_analytics: "UA-46859515-7"
 
+github_comments:
+  repo: robobenklein/robobenklein.github.io
+
 defaults:
   -
     scope:

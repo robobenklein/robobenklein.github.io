@@ -1,0 +1,37 @@
+<div class="entry-content" id="gh-comments-list">
+
+</div>
+<script>
+var ghc_url = "https://github.com/{{ site.github_comments.repo }}/issues/{{ page.ghcommentid }}"
+var ghc_api_url = "https://api.github.com/repos/{{ site.github_comments.repo }}/issues/{{ page.ghcommentid }}/comments"
+
+addLoadEvent(function () {
+  $(document).ready(function () {
+    $.ajax(ghc_api_url, {
+        headers: {Accept: "application/vnd.github.v3.html+json"},
+        dataType: "json",
+        success: function(comments) {
+            $("#gh-comments-list").append("<p>Visit the <b><a href='" + ghc_url + "'>Github Issue</a></b> to comment on this post</p>");
+            $.each(comments, function(i, comment) {
+
+                var date = new Date(comment.created_at);
+
+                var t = "<div id='gh-comment'>";
+                t += "<img src='" + comment.user.avatar_url + "' width='24px'>";
+                t += "<b><a href='" + comment.user.html_url + "'>" + comment.user.login + "</a></b>";
+                t += " posted at ";
+                t += "<em>" + date.toUTCString() + "</em>";
+                t += "<div id='gh-comment-hr'></div>";
+                t += comment.body_html;
+                t += "</div>";
+                $("#gh-comments-list").append(t);
+            });
+        },
+        error: function() {
+            $("#gh-comments-list").append("<p>Comments could not be displayed. (Either no comment host exists, or the Github Public API rate limit was exceeded.)</p>");
+            $("#gh-comments-list").append("<p>Visit the <b><a href='" + ghc_url + "'>Github Issue</a></b> to comment on this post</p>");
+        }
+    });
+  });
+});
+</script>

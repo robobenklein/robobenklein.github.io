@@ -10,7 +10,8 @@ image:
   credit: #text to show as image credit
   creditlink: #when credit is clicked.
   background: #filename in images/ to use as page background
-comments: false
+comments: true
+ghcommentid: 2
 share: true
 published: true
 date: 2018-03-29T20:41:09-04:00
