@@ -42,6 +42,7 @@ So here *I* am to explain...
 
 This article is not for those inexperienced with trains, if you're just getting started, [check out this presentation.](https://docs.google.com/presentation/d/1pDj-ccWjUrwG_9_fDzLUosFZx_luGUet5XZwt7uUyzM/edit)
 
+
 Already know that trains are the future and just need the technical advice? [Skip to Rule 2](#rule-2).
 
 # Rule 1:
