@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Nobody Uses cd Anymore
-modified:
+modified: 2018-06-27
 categories: linux
 description:
 tags: [zsh, linux, shell]
@@ -86,19 +86,21 @@ Here I'm using the `d` function that I have in my zshrc:
 
 ```
 # unalias because OMZ had it set so that we couldn't pass args to `dirs`
-unalias d                                                                              
-function d () {                                                                        
-  if [[ -n $1 ]]; then                                                                 
-    dirs "$@"                                                                          
-  else                                                                                 
-    dirs -v | head -10                                                                 
-  fi                                                                                   
-}              
+unalias d
+function d () {
+  if [[ -n $1 ]]; then
+    dirs "$@"
+  else
+    dirs -v | head -10
+  fi
+}
 # adds zsh autocompletion for the function
 compdef _dirs d
 ```
 
-The numbers are likely already bound in your shell! Go ahead and try it out, command `dirs` will always show you your current directory stack in zsh list form.
+( PR for this to OMZ @ [gh/robbyrussell/oh-my-zsh/pull/6924](https://github.com/robbyrussell/oh-my-zsh/pull/6924) )
+
+The numbers are likely already bound in your shell! (They are part of OMZ and other frameworks default libraries.) Go ahead and try it out, command `dirs` will always show you your current directory stack in zsh list form.
 
 ## Afterword
 
