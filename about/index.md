@@ -6,7 +6,6 @@ image:
   credit: SpaceX
   creditlink: http://www.spacex.com/
 comments: false
-modified: 2016-06-07
 ---
 
 Here's what I am:
