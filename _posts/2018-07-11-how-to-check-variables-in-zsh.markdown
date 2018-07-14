@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How to Check Variables in ZSH
-modified:
+modified: 2018-07-13
 categories: zsh
 description:
 tags: [zsh]
@@ -16,7 +16,7 @@ published: true
 date: 2018-07-11T19:49:37-04:00
 ---
 
-You normally just `[[ $VAR == "Value" ]]`, right? Well what about if the variable is set to an empty scalar?
+You normally just `[[ $VAR == "Value" ]]`, right? Well what about if the variable is set to an empty scalar? (`VAR=""`)
 
 It gets interesting, but for the TLDR; use `if (( ${+VAR} ));` to check if it is set.
 
@@ -132,3 +132,48 @@ user	0.31s
 sys	0.00s
 
 ```
+
+# Update: With Functions
+
+As of recently exploring ZSH performance for P9K, I've found a much better way to check a variable's existence via a function. (For whatever reason that may be required.)
+
+```
+# P9K's old defined function:
+defined () {
+	local varname="$1"
+	typeset -p "$varname" > /dev/null 2>&1
+}
+
+# My new version:
+def () {
+  [[ ! -z "${(tP)1}" ]]
+}
+
+# performance of
+defined VAR
+# vs
+def VAR
+
+```
+
+This resulted in a 2 to almost 40 times speedup depending on the systems I tried this on. A function call in itself is already an overhead, but at least this way it was much faster than making the call to `typeset` again.
+
+In case you're wondering how my `def` function works, it's fairly simple:
+
+```
+${(tP)variable} - gives a string
+  (  )          - shell variable expansion flags
+  (t )          - report type of variable: is blank / empty for unset variables,
+                  'scalar' for var="", array for var=(), etc
+  ( P)          - perform double expansion on the variable,
+                  meaning it takes the var's value as the name of a variable
+  (  )variable  - var with name of another variable to check
+```
+
+This is potentially preferable to ((${+ since we can dynamically name variables depending on other states, for example, we can now check for variables like:
+
+```
+if def PROMPT_COLOR_$RETVAL
+```
+
+Which can now use different envvars depending on `RETVAL`.
