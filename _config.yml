@@ -57,6 +57,7 @@ owner:
   linkedin: robobenklein
   github: robobenklein
   stackexchange: https://askubuntu.com/users/162914/robobenklein
+  linkedlist: ll # page with list of outgoing links, 'linked list'
 
 sass:
   sass_dir: _sass

@@ -2,10 +2,17 @@
 layout: page
 title: "id: robobenklein"
 image:
+  feature: robobenkleinBird.svg
 comments: false
 share: false
 ---
 <style>
+.entry-image img {
+  top: 80%;
+}
+.entry-image {
+  background-color: #000;
+}
 .linkedlist td {
   position: relative;
   overflow: hidden;

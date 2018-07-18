@@ -6,36 +6,41 @@ image:
   credit: SpaceX
   creditlink: http://www.spacex.com/
 comments: false
+share: false
 ---
 
 Here's what I am:
 
  * a CS student at UTK
- * the previous Lead Programmer for the L&N STEMpunks FRC Robotics Team.
- * an IEEE Member and IEEE Robotics programmer.
- * a Team Fortress 2 enthusiast.
- * the Founder and Owner of Robosane.
- * a younger than average Systems Administrator.
- * an Ubuntu & Linux Addict.
- * a [hacker](http://www.catb.org/jargon/html/H/hacker.html).
- * a Web Designer. (HTML/Pug, (S)CSS/Less, Node/JS, PHP/Joomla)
+ * the previous Lead Programmer for the L&N STEMpunks FRC Robotics Team
+ * an IEEE Member and IEEE Robotics programmer
+ * the Founder and Owner of Robosane
+ * an Ubuntu & Linux Addict
+ * a [hacker](http://www.catb.org/jargon/html/H/hacker.html)
  * a Programmer in multiple languages
- * and a human. (I think...)
+ * a videogame player (Linux)
+ * probably a human. (I think...)
 
 And here's what I am *not*:
 
- * a Windows Enthusiast.
- * an Apple hardware user.
+ * a Windows enthusiast.
+ * an Apple fanboy.
  * a sports fan.
  * a historian.
- * a mathematician.
 
-### My Programming Languages:
+### Programming Interests:
 
  * Python 2 & 3
- * Shell/bash/zsh/sh
- * C++ (11, 17)
- * Java
+ * Shell: **Zsh**, Bash, Sh
+ * C++ (11, 17, etc)
  * HTML(5), Pug
  * CSS, Less, Sass/Scss
- * Node, JS
+ * Javascript, Node
+
+## What is this red bird thing?
+
+It's a modification / adaptation / trace (svg form) of the first digital picture I ever took.
+
+The bird is a *Cardinalis cardinalis* (Northern Red Cardinal) from Eastern Tennessee.
+
+I've been using it for my online presence for a very long time, making new versions of it every so often.
