@@ -68,14 +68,16 @@ share: false
   color: inherit;
 }
 </style>
+
 |                                                              |
 |:------------------------------------------------------------:|
+|                       [About](/about/)                       |
 |                        [Unhexium](/)                         |
 |          [Keybase](https://keybase.io/robobenklein)          |
 |          [Github](https://github.com/robobenklein/)          |
 |          [Gitlab](https://gitlab.com/robobenklein/)          |
 |       [LinkedIn](https://linkedin.com/in/robobenklein)       |
-| [AskUbuntu](https://askubuntu.com/users/162914/robobenklein) |
+| [AskUbuntu / StackExchange](https://askubuntu.com/users/162914/robobenklein) |
 |         [Twitter](https://twitter.com/robobenklein)          |
 |      [SoundCloud](https://soundcloud.com/robobenklein)       |
 {:.linkedlist}

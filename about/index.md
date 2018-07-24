@@ -18,7 +18,7 @@ Here's what I am:
  * an Ubuntu & Linux Addict
  * a [hacker](http://www.catb.org/jargon/html/H/hacker.html)
  * a Programmer in multiple languages
- * a videogame player (Linux)
+ * a videogame player (only on Linux)
  * probably a human. (I think...)
 
 And here's what I am *not*:
