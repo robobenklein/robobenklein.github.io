@@ -13,7 +13,7 @@ image:
 comments: false
 share: true
 published: true
-date: 2018-07-24T00:02:09-04:00
+date: 2018-07-24
 ---
 
 A.K.A Why do all my USB 3.0 Hubs break?
