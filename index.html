@@ -29,7 +29,7 @@ image:
           <a href="{{ site.url }}/about/" title="About {{ site.owner.name }}">{{ site.owner.name }}</a>
         </span>
       </span>
-      {% if post.modified %}
+      {% if post.modified != post.created %}
       <span class="entry-date date updated">
         <time datetime="{{ post.modified | date_to_xmlschema }}">
           , updated <a href="{{ site.url }}{{ post.url }}">{{ post.modified | date: "%B %d, %Y" }}</a>

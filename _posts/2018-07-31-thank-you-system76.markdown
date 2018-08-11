@@ -1,7 +1,9 @@
 ---
 layout: post
 title: Thank You System76
-modified:
+date: 2018-07-31
+created: 2018-07-31
+modified: 2018-07-31
 categories: hardware
 description:
 tags: [ubuntu, hardware, system76, software, gaming, graphics]
@@ -13,7 +15,6 @@ image:
 comments: false
 share: true
 published: true
-date: 2018-07-31
 ---
 
 ![2016-07-01](/images/system76/screenshot-system76-first-order.png)

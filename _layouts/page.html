@@ -30,9 +30,12 @@
     </header>
     <div class="entry-content">
       {{ content }}
-      {% if page.modified or page.share != false %}
+      {% unless page.created %}
+        {% assign page.created = page.date %}
+      {% endunless %}
+      {% if page.modified != page.created or page.share != false %}
       <footer class="entry-meta">
-        {% if page.modified %}<span>Updated on <span class="entry-date date published updated"><time datetime="{{ page.modified }}">{{ page.modified | date: "%B %d, %Y" }}</time></span></span>
+        {% if page.modified != page.created %}<span>Updated on <span class="entry-date date published updated"><time datetime="{{ page.modified }}">{{ page.modified | date: "%B %d, %Y" }}</time></span></span>
         <span class="author vcard"><span class="fn">{{ site.owner.name }}</span></span>{% endif %}
         {% if page.share != false %}{% include social-share.html %}{% endif %}
       </footer>

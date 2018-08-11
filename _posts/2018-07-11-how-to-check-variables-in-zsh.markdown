@@ -1,6 +1,8 @@
 ---
 layout: post
 title: How to Check Variables in ZSH
+date: 2018-07-11
+created: 2018-07-11
 modified: 2018-07-13
 categories: zsh
 description:
@@ -13,7 +15,6 @@ image:
 comments: false
 share: true
 published: true
-date: 2018-07-11T19:49:37-04:00
 ---
 
 You normally just `[[ $VAR == "Value" ]]`, right? Well what about if the variable is set to an empty scalar? (`VAR=""`)
