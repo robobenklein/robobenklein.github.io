@@ -82,5 +82,5 @@ exclude: ["lib", "config.rb", "Capfile", "config", "Gemfile", "Gemfile.lock", "R
 
 plugins:
   - jekyll-sitemap
-  - jekyll-lunr-js-search
+  # - jekyll-lunr-js-search
   - jekyll-paginate
