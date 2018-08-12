@@ -3,7 +3,7 @@ layout: post
 title: "A Steam Controller..."
 date: 2016-06-06
 modified: 2018-08-11
-categories: gaming, hardware
+categories: hardware
 description:
 tags: [steam, hardware, gaming]
 image:
