@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "A Steam Controller..."
-modified:
+date: 2016-06-06
+modified: 2018-08-11
 categories: gaming, hardware
 description:
 tags: [steam, hardware, gaming]
@@ -13,11 +14,13 @@ image:
 comments: false
 share: true
 published: true
-date: 2016-06-06T18:48:34-04:00
 ---
 
 Yes, I bought a Steam Controller.  
 No, I do not regret it.
+
+Followup: [Steam Controller: 2 years later](/hardware/steam-controller-2-years-later-failure/)
+{: style="font-size: 1.8em; margin-top: 0px;"}
 
 
 ---
