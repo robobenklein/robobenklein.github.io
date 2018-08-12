@@ -1,6 +1,6 @@
 ---
 layout: {{ layout }}
-title: {{ title }}
+title: "{{ title }}"
 date: {{ ymd }} # date of publish (sorting value)
 created: {{ ymd }} # date of creation (shown value)
 modified: {{ ymd }} # date last updated (shown if set)
