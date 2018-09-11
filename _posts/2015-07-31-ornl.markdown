@@ -1,7 +1,9 @@
 ---
 layout: post
 title: ORNL
-modified:
+date: 2015-07-31
+created: 2015-07-31
+modified: 2018-08-11
 categories: work
 description: My ORNL Internship Experience
 tags: [work, hpc, drupal, ornl]
@@ -9,11 +11,10 @@ image:
   feature: sc-summit.png
   credit: ORNL OLCF
   creditlink: https://www.olcf.ornl.gov/summit/
-  background: triangular.png
+  background: cat-bgs/triangular.png
 comments: false
 share: true
 published: true
-date: 2015-07-31T10:15:26-04:00
 ---
 
 It's a pretty cool place if you didn't already realize.
@@ -35,3 +36,9 @@ Honestly they should just be called 'Plugins' in Drupal, I mean that's what they
 Elsewhere it was nightmares trying to get things to work like they should, although admittedly it was almost all the modules, not Drupal's fault.
 
 The default template had no excuses though. It was a fixed-width non-mobile-friendly page with images where they could have used a single line of CSS to get a better or same result. After a hundred line changes or so of manual editing, I was able to correct a majority of the issues and make it usable for mobile. I'm sure there's some free template out there that fixes this, but of hours searching my team member and I were unable to find anything suitable for our type of content. With about the same time I spent on Robosane's template, it should have been fairly simple as Drupal's templating system is much less complex.
+
+## :non bis in idem
+{: style="font-style: italic; direction: rtl; margin-bottom: 0px;"}
+
+On Summit: <br> [Summer 2018 Followup](/work/ornl-non-bis-in-idem)
+{: style="font-size: 1.8em; margin-top: 0px;"}

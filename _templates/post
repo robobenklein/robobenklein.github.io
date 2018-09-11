@@ -2,8 +2,8 @@
 layout: {{ layout }}
 title: "{{ title }}"
 date: {{ ymd }} # date of publish (sorting value)
-created: {{ ymd }} # date of creation (shown value)
-modified: {{ ymd }} # date last updated (shown if set)
+created: {{ ymd }} # date of creation (shown value, defaults to `date`)
+modified: {{ ymd }} # date last updated (shown if different than created)
 categories: {{ dir }}
 description:
 tags: []
