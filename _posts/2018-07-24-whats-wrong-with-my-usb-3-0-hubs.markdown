@@ -1,19 +1,20 @@
 ---
 layout: post
-title: What's Wrong With My USB 3.0 Hubs?
-modified:
+title: "USB3 Hubs: What's going on?"
+date: 2018-11-01
+created: 2018-07-24
+modified: 2018-11-01
 categories: hardware
 description:
 tags: [usb, hardware]
 image:
-  feature: usb-things.jpeg #filename in images/ for post header
+  feature: 2018-07-24/usb-things.jpeg #filename in images/ for post header
   credit: #text to show as image credit
   creditlink: #when credit is clicked.
   background: #filename in images/ to use as page background
 comments: false
 share: true
 published: true
-date: 2018-07-24
 ---
 
 A.K.A Why do all my USB 3.0 Hubs break?
@@ -71,3 +72,23 @@ Already I'm at 11 devices, and I haven't even plugged in any of my backup drives
 I'm starting to wonder, I probably have enough electrical knowledge to purchase a usb controller board and ports, make my own hub but probably with overkill power delivery.
 
 Although if it turns out not to be a power-related problem (some device sending bad data back up the bus?) then I will have a much harder time figuring out this problem.
+
+# Fall 2018 Update
+
+![](/images/2018-07-24/usb-things-2.jpg)
+{: style="text-align: center;"}
+
+> The unusually bright individual port status lights get somewhat annoying, but at least it looks really cool when they come online in sequence.
+{: style="text-align: center;"}
+
+I think my condition is stable now.
+
+I purchased an "iCONE" USB3 10-port hub in August, and it seems to have held up so far.
+
+Unlike the GenBasic hub, this one is only 60W instead of 84W, but I have yet to see any power problems after plugging in most of my high-load devices.
+
+There's also nothing special about this hub - no QuickCharge or extra output ports, perhaps leaving less components to fail.
+
+Now, I haven't *stressed* this hub by pulling the full 60W yet, but I doubt I will try to considering the track record so far. (Even though it does have overcurrent protection, it's an $85 hub and it still works...)
+
+Hopefully this holds up for more than just these few months, perhaps if it comes back in stock I may really try to push it; potentially ordering a second hub upon survival of such a stress test.
