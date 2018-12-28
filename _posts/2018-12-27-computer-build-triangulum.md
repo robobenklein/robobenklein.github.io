@@ -30,6 +30,8 @@ The Ryzen 2400G processor has Vega 11 graphics built-in, which on it's own can h
 
 This means that I can forward a dedicated GPU to a Windows VM in case I wanted to play VR titles that are Windows-only, and compare their performance with a proton or native version on Linux just by booting the VM.
 
+Unfortunately the 2400G was the highest end AMD CPU with integrated Vega graphics at the time of writing, otherwise I might have gone with a Ryzen 7 series.
+
 ### Factorio
 
 I don't know if you've heard of Factorio or not, but you will need to understand that the basis of this game is that the entire world undergoes a huge lockstep simulation every tick. (60 UPS)
