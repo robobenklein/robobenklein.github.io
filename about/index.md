@@ -9,33 +9,45 @@ comments: false
 share: false
 ---
 
-Here's what I am:
+## Titles:
 
- * a CS student at UTK
- * the previous Lead Programmer for the L&N STEMpunks FRC Robotics Team
- * an IEEE Member and IEEE Robotics programmer
- * the Founder and Owner of Robosane
- * an Ubuntu & Linux Addict
- * a [hacker](http://www.catb.org/jargon/html/H/hacker.html)
- * a Programmer in multiple languages
- * a videogame player (only on Linux)
- * probably a human. (I think...)
+ - Founder, Owner of Robosane
+ - CS Student at [UTK](https://www.eecs.utk.edu/)
+ - UTK IEEE Robotics Team Captain
+ - [Robotics Coordinator](https://bigorangerobots.com/) for [FIRST Alumni at UTK](https://volink.utk.edu/organization/firstalumni)
+ - Undergrad Researcher (Software Engineering Tools) under [Dr. Henley](http://web.eecs.utk.edu/~azh/)
 
-And here's what I am *not*:
+Previously:
 
- * a Windows enthusiast.
- * an Apple fanboy.
- * a sports fan.
- * a historian.
+ - Systems Development / Integration intern for [ORNL's OLCF](https://www.olcf.ornl.gov/)
+ - Workflow and DevOps lead for [ORNL MDF](https://www.ornl.gov/mdf) Slicer 2 project.
+ - Lead Programmer for FRC Team 3966
+
+## I am:
+
+ - an Ubuntu & Linux (GNU flavor) Addict
+ - a [hacker](http://www.catb.org/jargon/html/H/hacker.html)
+ - a Programmer in multiple languages
+ - a videogame player (only on Linux)
+ - probably a human. (needs more evidence)
+
+## I am *not*:
+
+ - a Windows enthusiast.
+ - an owner of any Apple products.
+ - a sports fan.
+ - a historian.
 
 ### Programming Interests:
 
- * Python 2 & 3
- * Shell: **Zsh**, Bash, Sh
- * C++ (11, 17, etc)
- * HTML(5), Pug
- * CSS, Less, Sass/Scss
- * Javascript, Node
+ - Python 2 & 3
+ - Shell: **Zsh**, Bash, Sh
+ - C++ (11, 17, etc)
+ - HTML(5), Pug
+ - CSS, Less, Sass/Scss
+ - Javascript, Node
+
+Want to learn: Go, Haskell, Ruby, Rust, Lua
 
 ## What is this red bird thing?
 
