@@ -56,10 +56,11 @@ I don't know if this is a common thing, but I have easily somewhere around 5-12 
      - USB 2.0 Hub (monitor)
        - MIDI to USB converter (to keyboard)
      - Type-C cable (phone #1)
-     - Mini-USB cable (phone #2)
+     - Micro-USB cable (phone #2)
      - Steam Controller Dongle
      - G933 Headset wireless dongle
      - G933 Headset (Charging-only ports)
+     - Mini-B for Studio Mic
      - Generic USB drives
    - USB Hardware KVM switch
      - Mouse (Wireless)
