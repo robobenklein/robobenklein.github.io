@@ -3,7 +3,7 @@ layout: post
 title: "USB3 Hubs: What's going on?"
 date: 2018-11-01
 created: 2018-07-24
-modified: 2018-11-01
+modified: 2019-05-07
 categories: hardware
 description:
 tags: [usb, hardware]
@@ -93,3 +93,18 @@ There's also nothing special about this hub - no QuickCharge or extra output por
 Now, I haven't *stressed* this hub by pulling the full 60W yet, but I doubt I will try to considering the track record so far. (Even though it does have overcurrent protection, it's an $85 hub and it still works...)
 
 Hopefully this holds up for more than just these few months, perhaps if it comes back in stock I may really try to push it; potentially ordering a second hub upon survival of such a stress test.
+
+# Spring 2019 Update
+
+Wow I really either must be very unlucky or something is very wrong with my USB setup.
+
+As of recently, that iCONE USB 3.0 hub that I mentioned in the Fall 2018 update has started acting up. This time, I'm not as suspicious of the hub as I am the other USB devices connected in my setup.
+
+When I had everything plugged in as I normally do, occaisonally I'll notice that a device or two just stops responding, and Linux can no longer recognize when it's been unplugged, replugged, or even replugged into an entirely different port like those on the motherboard.
+
+Since I've had this many issues with USB devices, I'm slimming down my number of devices I keep plugged in at all times to the bare minimum. I'm no longer suspicious of the iCONE hub because of how devices still wouldn't show up even after disconnecting it and trying the device in other ports.
+
+So my latest guess is that one or more of the devices or other integrated hubs on the USB chain are acting up or conflicting in some way. Since it's such a nondeterministic occurence, my best bet is just to run different combinations of devices for a few weeks and see if the issue pops up again.
+
+I would love to have a hardware USB debugger / interceptor, but I don't think the expense is warranted in my case. Hopefully the malfunctioning device shows itself in time...
+
