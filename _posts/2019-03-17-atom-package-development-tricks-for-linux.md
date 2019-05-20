@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "Atom Package Development Tricks for Linux"
-date: 2019-03-17 # date of publish (sorting value)
+date: 2019-05-20 # date of publish (sorting value)
 created: 2019-03-17 # date of creation (shown value, defaults to `date`)
-modified: 2019-03-17 # date last updated (shown if different than created)
+modified: 2019-05-20 # date last updated (shown if different than created)
 categories: atom
 description:
 tags: [atom, linux, javascript, firejail]
@@ -62,6 +62,8 @@ ATOM_HOME="~/.atom-devmode" atom -d
 However this is essentially making a second install of Atom and none of your packages or settings will be copied over or shared. For some cases this is useful, but for me I prefer to have all my non-devmode packages loaded in both. Using firejail, we can do a lot better:
 
 ## Sandboxing for dev mode (firejail)
+
+> NOTE! I've written more on this in an update section below, you should read that instead!
 
 Using firejail, we can either save our Devmode Atom states in a filesystem overlay, or we can run Atom in a way where changes it makes are not saved to disk at all. (Run it in a tmpfs overlay!)
 
@@ -180,3 +182,31 @@ Outputs:
 ![Console Screenshot](/images/2019-03-17/Screenshot from 2019-03-17 17-24-04.png)
 
 It essentially creates a logger that's only active when Atom is in devmode, so that you don't have to worry about removing the debugging statements when you publish the plugin.
+
+# Sandboxing with Firejail
+
+> Update from May 2019
+
+Using firejail to do testing and development has become an integral part of my workflow, to the point where only my primary editor is running outside a jail.
+
+I've had some slight issues running Atom in the sandbox, so I've made a few changes to the profile that firejail provides for Atom.
+
+It's not designed to protect you from any security vulnerabilities, it's just barebones enough to separate changes and prevent the Atom instances from joining / communicating.
+
+The profile I'm using is located [in my configs repo](https://github.com/robobenklein/configs/blob/master/firejail/atom.profile).
+
+If you're really worried about the security of the plugins I wouldn't use that profile, since it still allows read access to almost the entire home directory.
+
+I've also added a script that sets the `GTK_IM_MODULE` variable properly for me, but that's about it.
+
+The commands I've been running the most are now:
+
+<pre>GTK_IM_MODULE=xim <font color="#4D9A05">firejail</font> <font color="#05979A">--overlay-tmpfs</font> atom <font color="#05979A">-d</font> <font color="#BF23E0"><u style="text-decoration-style:single">.</u></font></pre>
+
+which runs Atom in a temporary filesystem overlay, so you'll still have all your plugins and whatnot installed.
+
+For a clean Atom install (a completely fresh home directory) I use
+
+<pre>GTK_IM_MODULE=xim <font color="#4D9A05">firejail</font> <font color="#05979A">--private</font> atom <font color="#05979A">-d</font> <font color="#BF23E0"><u style="text-decoration-style:single">.</u></font></pre>
+
+This allows me to check that a plugin will work on a fresh install, since my own Atom setup is already quite loaded with far too many plugins and config changes.

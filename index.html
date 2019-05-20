@@ -20,8 +20,8 @@ image:
     {% endif %}
     <div class="entry-meta">
       <span class="entry-date date published">
-        <time datetime="{{ post.date | date_to_xmlschema }}">
-          <a href="{{ site.url }}{{ post.url }}">{{ post.date | date: "%B %d, %Y" }}</a>
+        <time datetime="{{ post.created | date_to_xmlschema }}">
+          <a href="{{ site.url }}{{ post.url }}">{{ post.created | date: "%B %d, %Y" }}</a>
         </time>
       </span>
       <span class="author vcard">
