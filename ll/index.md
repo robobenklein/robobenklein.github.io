@@ -2,13 +2,26 @@
 layout: page
 title: "id: robobenklein"
 image:
-  feature: robobenkleinBird.svg
+  feature: robobenklein-circle-avatar-stb-saturationrebalance.svg
 comments: false
 share: false
 ---
 <style>
 .entry-image img {
-  top: 80%;
+  min-width: unset;
+}
+@media (max-width: 768px) {
+  .entry-image img {
+    top: 0%;
+    bottom: unset;
+  }
+}
+@media (min-width: 768px) {
+  .entry-image img {
+    top: -30%;
+    bottom: -50%;
+    right: -70vw;
+  }
 }
 .entry-image {
   background-color: #000;
