@@ -25,8 +25,8 @@ It's not too hard to get everything working, just needs some extra tweaks here a
 
 For quick reference, the programs I will be using are:
 
- - Protontricks: https://github.com/Sirmentio/protontricks
- - BeatDrop: https://github.com/StarGazer1258/BeatDrop
+ - Protontricks: [github.com/Sirmentio/protontricks](https://github.com/Sirmentio/protontricks)
+ - BeatDrop: [github.com/StarGazer1258/BeatDrop](https://github.com/StarGazer1258/BeatDrop)
  - Steam Proton v4.11-2
 
 That's all you'll need! Now let's get started!
@@ -49,7 +49,7 @@ Before doing anything, run the game normally at least once. Simple, I know, but 
 # Step 3: Apply fixes to the wine prefix
 
  1. Use the same protontricks gui as before, but this time open RegEdit.
- 2. Get this file: https://github.com/Vash63/bsmodinstaller.py/blob/master/winhttp.reg
+ 2. Get this file: [github.com/Vash63/bsmodinstaller.py: winhttp.reg](https://github.com/Vash63/bsmodinstaller.py/blob/master/winhttp.reg)
  3. Import that file via the RegEdit menu.
 
 Next, if you want to use SongCore, (in most cases you do) you need to do an additional step:
@@ -75,4 +75,4 @@ Before trying to launch Beat Saber, make sure you close out any programs running
 
 # You're done!
 
-Now when you launch Beat Saber, everything should work as expected! If not, *please* ping me on GitHub (you can make an issue on my .github.io), Steam (leave a profile comment), Discord or email.
+Now when you launch Beat Saber, everything should work as expected! If not, *please* ping me on GitHub (you can make an issue on [my .github.io](https://github.com/robobenklein/robobenklein.github.io)), [Steam](https://steamcommunity.com/id/robobenklein/) (leave a profile comment), [Discord](https://discord.gg/0u3n2P3AmId0Ldy4) or email.
