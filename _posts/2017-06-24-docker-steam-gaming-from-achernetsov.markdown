@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Docker Steam Gaming From Achernetsov
-modified:
+modified: 2019-09-03
 categories: gaming
 description:
 tags: [nvidia, docker, ubuntu, steam, gaming, reddit]
@@ -13,7 +13,8 @@ image:
 comments: false
 share: true
 published: true
-date: 2017-06-24T18:14:46-04:00
+date: 2017-06-24
+created: 2017-06-24
 ---
 
 Just browsing reddit one day, [when this comes along.](https://github.com/achernetsov/dockerized-steam)
@@ -267,3 +268,14 @@ This post is a work in progress of my own adventure trying to get things to work
 Most likely, I haven't gotten past here in my own endeavors.
 
 I'll update here when I make progress.
+
+
+# September of 2019
+
+I've since mostly given up using wine manually for applications and games now.
+
+Recently I've been using Proton for games from Steam, Lutris for other games, and for sandboxing I've been using firejail.
+
+To me, running wine inside Docker is now a fruitless endeavor, since I believe better solutions exist.
+
+Hence, I probably won't ever get around to finishing this, perhaps I've written about Proton, Lutris, or Firejail in the future, which are what you should probably look towards if you're still interested in sandboxed windows games on GNU/Linux.
