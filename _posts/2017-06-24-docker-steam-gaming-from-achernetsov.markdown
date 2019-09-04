@@ -17,6 +17,8 @@ date: 2017-06-24
 created: 2017-06-24
 ---
 
+> Note! Outdated content ahead! [Skip to the update!]({{page.url}}#update-september-of-2019)
+
 Just browsing reddit one day, [when this comes along.](https://github.com/achernetsov/dockerized-steam)
 
 This looks interesting, so [I said I would test it out](https://www.reddit.com/r/linux_gaming/comments/6j4tt8/docker_image_for_nvidiaalsa_host_with_winetricks/), let's get started.
@@ -270,7 +272,7 @@ Most likely, I haven't gotten past here in my own endeavors.
 I'll update here when I make progress.
 
 
-# September of 2019
+# Update September of 2019
 
 I've since mostly given up using wine manually for applications and games now.
 
