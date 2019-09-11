@@ -82,15 +82,21 @@ share: false
 }
 </style>
 
-|                                                              |
-|:------------------------------------------------------------:|
-|                       [About](/about/)                       |
-|                        [Unhexium](/)                         |
-|          [Keybase](https://keybase.io/robobenklein)          |
-|          [Github](https://github.com/robobenklein/)          |
-|          [Gitlab](https://gitlab.com/robobenklein/)          |
-|       [LinkedIn](https://linkedin.com/in/robobenklein)       |
+|  |
+|:---:|
+| [About](/about/) |
+| [Unhexium](/) |
+| [Keybase](https://keybase.io/robobenklein) |
+| [Github](https://github.com/robobenklein/) |
+| [Gitlab](https://gitlab.com/robobenklein/) |
+| [LinkedIn](https://linkedin.com/in/robobenklein) |
 | [AskUbuntu / StackExchange](https://askubuntu.com/users/162914/robobenklein) |
-|         [Twitter](https://twitter.com/robobenklein)          |
-|      [SoundCloud](https://soundcloud.com/robobenklein)       |
+| [Twitter](https://twitter.com/robobenklein) |
+| [Steam](https://steamcommunity.com/id/robobenklein/) |
+| [SoundCloud](https://soundcloud.com/robobenklein) |
+| [Email: robobenklein@gmail.com](mailto:robobenklein@gmail.com) |
+| [Email: robobenklein@robosane.net](mailto:robobenklein@robosane.net) |
+| [Email: robobenklein@unhexium.net](mailto:robobenklein@unhexium.net) |
+| [Email: robobenklein@unhexium.dev](mailto:robobenklein@unhexium.dev) |
+| [Email: robobenklein@utk.edu](mailto:robobenklein@utk.edu) |
 {:.linkedlist}
