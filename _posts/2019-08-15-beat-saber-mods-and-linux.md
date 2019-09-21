@@ -3,7 +3,7 @@ layout: post
 title: "Beat Saber Mods and Linux"
 date: 2019-08-15 # date of publish (sorting value)
 created: 2019-08-15 # date of creation (shown value, defaults to `date`)
-modified: 2019-08-15 # date last updated (shown if different than created)
+modified: 2019-09-20 # date last updated (shown if different than created)
 categories: vr
 description: "Get a full modded Beat Saber experience on Linux"
 tags: [vr, steam, wine, proton, vive]
@@ -16,6 +16,9 @@ comments: false
 share: true
 published: true
 ---
+
+> 1.3.0 broke mods again! Use [these scripts](https://github.com/geefr/beatsaber-linux-goodies/tree/master/scripts) to get them working again!
+> Read further below to see more details about this update
 
 So you've probably heard that I've recently started using an HTC Vive I acquired (or you're somebody I've never met...) and I also love rhythm games, so you see where this is going.
 
@@ -76,3 +79,13 @@ Before trying to launch Beat Saber, make sure you close out any programs running
 # You're done!
 
 Now when you launch Beat Saber, everything should work as expected! If not, *please* ping me on GitHub (you can make an issue on [my .github.io](https://github.com/robobenklein/robobenklein.github.io)), [Steam](https://steamcommunity.com/id/robobenklein/) (leave a profile comment), [Discord](https://discord.gg/0u3n2P3AmId0Ldy4) or email.
+
+# BeatSaber 1.3 Update
+
+Alright, this latest update requires even more workarounds this time, but luckily someone's already published a script to modify the proton instance:
+
+[github.com/geefr/beatsaber-linux-goodies](https://github.com/geefr/beatsaber-linux-goodies/tree/master/scripts)
+
+Use the `bs-linux-modfix.sh` script to fix it up, it'll handle the weird library / winhttp workarounds required now.
+
+Also, the same guy made a fork of BeatDrop with native Linux releases! [Check it out!](https://github.com/geefr/BeatDrop/releases)
