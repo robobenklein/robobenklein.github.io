@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How Perfect Rail Networks Don't Work
-modified:
+modified: 2019-09-03
 categories: factorio
 description:
 tags: [steam, factorio, gaming]
@@ -9,13 +9,15 @@ image:
   feature: 2018-05-10/kangning_bridge.jpg #filename in images/ for post header
   credit: Xue Siyang #text to show as image credit
   creditlink: https://commons.wikimedia.org/wiki/File:%E5%BA%B7%E5%AE%81%E6%A1%A5%E9%9B%AA%E6%99%AF_The_snow_senery_of_Kangning_bridge_-_panoramio.jpg
-  background: cat-bgs/traingrid.png #filename in images/ to use as page background
+  background: cat-bgs/traingrid.png
 comments: true
 ghcommentid: 3
 share: true
 published: true
-date: 2018-05-10T00:37:22-04:00
+date: 2018-05-10
 ---
+
+> Post has been updated September 2019! Read on further below,
 
 This article was partially inspired by Korezaan's post:
 
@@ -174,3 +176,33 @@ If you aren't sure where to place a signal, just think through how the train wil
 I hope that this guide could solve some of your problems!
 
 If you find issues, have suggestions or changes, please let me know! I'll try to update my ruleset as I continue to play the game and learn more common mistakes people make building rail networks.
+
+# September 2019 Update
+
+It's been over a year, and with all the changes that happened, this article is still somehow popular enough to deserve an update.
+
+So here's my new take on this:
+
+ * Current number of hours played: 1045
+ * Game versions: 0.17.X
+ * Longest game in hours: where did my life go?
+ * Time spent figuring out rail theory in hours: *still counting*
+ * Amount of notes: None.
+ * Percent of played worlds with train networks: 100%
+ * Number of perfect rail networks made: **1**
+
+The way I'm building train networks now is completely different than what I used to.
+
+A large part of this change is the use of LTN, which is a seriously amazing mod. (Could be perfect if it was licensed under a FOSS license)
+
+## The ruleset still applies, but it's not absolute...
+
+Most of my railway ruleset still holds up and has prevented a lot of friends from messing up my rail networks which I'm quite picky about.
+
+For ruleset rule number 3, I've started to deviate from this a tiny bit.
+
+While I still recommend keeping the blocks larger than your biggest train, there have been some cases in which throughput can be improved when adding more blocks with normal signals instead of chain signals.
+
+As long as you ensure that there's a chain-signal-only path to get around any trains stopped in normal signal blocks, you shouldn't ever get a network lockup.
+
+In the case that you add normal signals to all the possible paths to get to a station, it's possible that if **even a single station doesn't have enough train waiting spots, the entire network may lock up.**
