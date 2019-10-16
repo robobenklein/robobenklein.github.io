@@ -94,19 +94,8 @@ share: false
 | [Gitlab](https://gitlab.com/robobenklein/) |
 | [LinkedIn](https://linkedin.com/in/robobenklein) |
 | [AskUbuntu / StackExchange](https://askubuntu.com/users/162914/robobenklein) |
-| [Twitter](https://twitter.com/robobenklein) |
+| [Mastodon (uwu.social)](https://uwu.social/@robobenklein) |
+| [Twitter (stale)](https://twitter.com/robobenklein) |
 | [Steam](https://steamcommunity.com/id/robobenklein/) |
 | [SoundCloud](https://soundcloud.com/robobenklein) |
-{:.linkedlist}
-
-# email
-{:.titling}
-
-|  |
-|:---:|
-| [robobenklein@gmail.com](mailto:robobenklein@gmail.com) |
-| [robobenklein@robosane.net](mailto:robobenklein@robosane.net) |
-| [robobenklein@unhexium.net](mailto:robobenklein@unhexium.net) |
-| [robobenklein@unhexium.dev](mailto:robobenklein@unhexium.dev) |
-| [robobenklein@utk.edu](mailto:robobenklein@utk.edu) |
 {:.linkedlist}
