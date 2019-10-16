@@ -4,9 +4,9 @@ title: "Pop!_OS is tastier than a Popsicle"
 date: 2019-09-03 # date of publish (sorting value)
 created: 2019-09-03 # date of creation (shown value, defaults to `date`)
 modified: 2019-09-03 # date last updated (shown if different than created)
-categories:
-description:
-tags: []
+categories: linux
+description: "My experience using Pop!_OS as my daily for a few months"
+tags: [linux, ubuntu, pop_os, distro]
 image:
   feature: #filename in images/ for post header
   credit: #text to show as image credit

@@ -6,7 +6,7 @@ created: 2019-05-20 # date of creation (shown value, defaults to `date`)
 modified: 2019-05-20 # date last updated (shown if different than created)
 categories: hardware
 description: "6 month experience report with the UHK"
-tags: [hardware]
+tags: [hardware, keyboard]
 image:
   feature: #filename in images/ for post header
   credit: #text to show as image credit

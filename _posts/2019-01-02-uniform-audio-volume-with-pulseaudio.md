@@ -5,7 +5,7 @@ date: 2019-01-02 # date of publish (sorting value)
 created: 2019-01-02 # date of creation (shown value, defaults to `date`)
 modified: 2019-01-02 # date last updated (shown if different than created)
 categories: audio
-description:
+description: "Install an automatic volume limiter in pulseaudio"
 tags: [software, ubuntu, pulseaudio, audio, ladspa]
 image:
   feature: 2019-01-02/GIFrecord_2019-01-02_201528.gif
