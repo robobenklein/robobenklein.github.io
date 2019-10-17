@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "VLHCC 2019: Such conference"
+title: "VLHCC 2019: My personal rankings"
 date: 2019-10-16 # date of publish (sorting value)
 created: 2019-10-16 # date of creation (shown value, defaults to `date`)
 modified: 2019-10-16 # date last updated (shown if different than created)
@@ -41,6 +41,16 @@ The problem is super relevant and is my number one frustration with other papers
 
 I don't care how bad the code is, or if it's ripped off some other project, if I have more questions about the research or am interested in referencing or continuing the research, I will absolutely want to know exactly how it worked.
 
+### Toward Accessible Graphics and Visualization (Second Keynote)
+{:.papertitle}
+Presentation: SS
+
+Incredible talk and research. I had never believed that it would ever be possible in my lifetime that the blind would be able to design and create 3D (GPU-accelerated!) games on their own.
+
+When the demo of the blind-accessible game editor started I was hugely impressed that such a working product already existed.
+
+It's now no longer unreasonable that the blind might even be able to interact with others in VR in my lifetime, let alone flesh out full game experiences in something as universal as the Unity game editor.
+
 ### Hiring is Broken: What Do Developers Say About Technical Interviews?
 {:.papertitle}
 Presentation: B
@@ -63,6 +73,13 @@ I personally thought this was a very well done presentation because I use APIs *
 
 I have been in the situation where I want to explore an API completely to search for a certain desirable functionality, but it might be completely undocumented, there might be no examples, and it might be obscured by the other, more popular results from StackExchange posts.
 
+### Instrument Designs for Validating Cross-Language Behavioral Differences
+{:.papertitle}
+
+For programmers who regularly use multiple languages, you'll probably find a lot to associate with in this paper, since it compares how languages with similar features like array slicing have very different behaviors between languages.
+
+I personally associated with this presentation because of the use of both Python and R for the example comparison, I have used both and I have fallen for some of those pitfalls (bad assumptions, etc) mentioned in the presentation and paper while switching between them on the same project.
+
 ### XLBlocks: a Block-based Formula Editor for Spreadsheet Formulas
 {:.papertitle}
 
@@ -74,12 +91,35 @@ Unfortunately I don't use Excel, or any of the Microsoft suite, so I would love 
 
 I could imagine Google implementing such a solution for Google Sheets and I would absolutely love to use it, however excel has such a specific set of instructions that I'm worried we'd essentially have to reimplement the whole project once per spreadsheeting program.
 
+### Towards an Empirically-Based IDE: An Analysis of Code Size and Screen Space
+{:.papertitle}
+Presentation: S
+
+This might just apply to me, but I very often use editors in which I tile panes of code that hold differing physical code sizes.
+
+I'm currently working on research that involves creating a grid of patches that hold code files automatically, so if I could use the code from this paper as the basis for automatically determining the ideal number of panes in the grid, it could seriously improve the user experience.
+
+Even if I were not to implement it directly, I would still love to be able to run it over a codebase I've never seen before to get an idea of how I should lay it out so that I can read as much as possible.
+
 ### A Hierarchical Task Assignment for Manual Image Labeling
 {:.papertitle}
+Presentation: B
 
 I might be using the results of this paper personally for my own projects, since this showed a new method for tagging (labeling) images for use in a machine learning training dataset.
 
 Sorting quickly into major categories first, then progressively refining the images into narrower categories hugely improved the time required to tag all the images in a fixed size data source.
+
+### Co-Located Collaborative Block-Based Programming
+{:.papertitle}
+Presentation: S
+
+This project was really cool to see presented because included was a very short demo in which they showed how the software they built shared snippets of block-based code.
+
+It was super simple to just drag a built block of code from the sender's editor space onto the other participant's name in the room view, and like magic the code slides in to the recipient's incoming code drawer.
+
+This is of course really natural for block-based languages since it's easy to pick up and physically move small self-contained blocks of code, however I also with such a sharing concept could exist for conventional text languages. I think such a method seriously helps improve the productivity of collaborative programming, and perhaps some of the other ideas from the block collaboration methods presented here could be applied in the same way to text.
+
+Overall I was also impressed to see data from a study using a unique variety of devices: a laptop, a tablet, and a touchscreen table. I was somewhat surprised to find that the tablet was more preferred compared to the table, but I could easily explain that by either device having a sub-par user interface experience.
 
 ### Effects of Code Representation on Student Perceptions and Attitudes Toward Programming
 {:.papertitle}
