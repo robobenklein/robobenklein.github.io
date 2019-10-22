@@ -58,6 +58,18 @@ hidden: true
 .papertitle {
   text-decoration: underline;
 }
+span.icon-tier-ss:before {
+  text-decoration: none;
+  content: url({{site.baseurl}}/images/osu/GradeSmall-SS.svg);
+  top: 2px;
+  position: relative;
+}
+span.icon-tier-s:before {
+  text-decoration: none;
+  content: url({{site.baseurl}}/images/osu/GradeSmall-S.svg);
+  top: 2px;
+  position: relative;
+}
 </style>
 
 ICYMI (in case you missed it, which most of you did) the IEEE VLHCC conference is happening this week.
@@ -78,7 +90,7 @@ Most of you probably don't want to read through my thoughts on all the papers, s
 
 ### Barriers to Reproducible Scientific Programming
 {:.papertitle}
-Presentation: SS
+Presentation: <span class="icon-tier-ss" />
 
 I wish every researcher who ever touches a computer would either read this paper or see this presentation. It was the best presentation I've seen here.
 
@@ -88,7 +100,7 @@ I don't care how bad the code is, or if it's ripped off some other project, if I
 
 ### Toward Accessible Graphics and Visualization (Second Keynote)
 {:.papertitle}
-Presentation: SS
+Presentation: <span class="icon-tier-ss" />
 
 Incredible talk and research. I had never believed that it would ever be possible in my lifetime that the blind would be able to design and create 3D (GPU-accelerated!) games on their own.
 
@@ -96,9 +108,12 @@ When the demo of the blind-accessible game editor started I was hugely impressed
 
 It's now no longer unreasonable that the blind might even be able to interact with others in VR in my lifetime, let alone flesh out full game experiences in something as universal as the Unity game editor.
 
+While some may think that the application is simply reading information about the game world back to the user, the technical work needed to connect the GPU state to something that can be read and interpreted is a seriously impressive feat.
+
+Normally, once a CPU dumps it's built graphics kernel onto the GPU, there's no easy way to parse the information about the graphics being drawn to screen, but this framework evidently allows you to. (I haven't tried it myself yet.)
+
 ### Hiring is Broken: What Do Developers Say About Technical Interviews?
 {:.papertitle}
-Presentation: B
 
 This is relevant to just about anyone either hiring or looking to be hired in the tech industry. Whiteboard interviews are the classic stressful situation and this paper looks at this in depth and why it's a broken method.
 
@@ -138,7 +153,7 @@ I could imagine Google implementing such a solution for Google Sheets and I woul
 
 ### Towards an Empirically-Based IDE: An Analysis of Code Size and Screen Space
 {:.papertitle}
-Presentation: S
+Presentation: <span class="icon-tier-s" />
 
 This might just apply to me, but I very often use editors in which I tile panes of code that hold differing physical code sizes.
 
@@ -148,7 +163,6 @@ Even if I were not to implement it directly, I would still love to be able to ru
 
 ### A Hierarchical Task Assignment for Manual Image Labeling
 {:.papertitle}
-Presentation: B
 
 I might be using the results of this paper personally for my own projects, since this showed a new method for tagging (labeling) images for use in a machine learning training dataset.
 
@@ -156,7 +170,7 @@ Sorting quickly into major categories first, then progressively refining the ima
 
 ### Co-Located Collaborative Block-Based Programming
 {:.papertitle}
-Presentation: S
+Presentation: <span class="icon-tier-s" />
 
 This project was really cool to see presented because included was a very short demo in which they showed how the software they built shared snippets of block-based code.
 
@@ -209,7 +223,7 @@ I think this topic should be expanded as the automated feedback programs improve
 
 ### From GenderMag to InclusiveMag: An Inclusive Design Meta-Method
 {:.papertitle}
-Presentation: SS
+Presentation: <span class="icon-tier-ss" />
 
 Personally I'm not crazy interested in this research area, but the presentation skills were amazing.
 

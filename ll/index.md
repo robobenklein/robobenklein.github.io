@@ -93,7 +93,7 @@ share: false
 | [Github](https://github.com/robobenklein/) |
 | [Gitlab](https://gitlab.com/robobenklein/) |
 | [LinkedIn](https://linkedin.com/in/robobenklein) |
-| [AskUbuntu / StackExchange](https://askubuntu.com/users/162914/robobenklein) |
+| [StackExchange: AskUbuntu](https://askubuntu.com/users/162914/robobenklein) |
 | [Mastodon (uwu.social)](https://uwu.social/@robobenklein) |
 | [Twitter (stale)](https://twitter.com/robobenklein) |
 | [Steam](https://steamcommunity.com/id/robobenklein/) |
