@@ -1,21 +1,64 @@
 ---
 layout: post
 title: "VLHCC 2019: My personal rankings"
-date: 2019-10-16 # date of publish (sorting value)
-created: 2019-10-16 # date of creation (shown value, defaults to `date`)
-modified: 2019-10-16 # date last updated (shown if different than created)
+date: 2019-10-21 # date of publish (sorting value)
+created: 2019-10-21 # date of creation (shown value, defaults to `date`)
+modified: 2019-10-21 # date last updated (shown if different than created)
 categories: conferences
 description: "Stuff I found interesting from the IEEE VLHCC conference in Memphis, TN"
 tags: [conference, utk, research]
 image:
-  feature: #filename in images/ for post header
-  credit: #text to show as image credit
-  creditlink: #when credit is clicked.
+  feature: features/vlhcc-2019-adam.jpg
+  credit: Adam Short's Presentation
+  creditlink: https://web.eecs.utk.edu/~ashort11/
   background: #filename in images/ to use as page background
 comments: false
 share: true
-published: false
+published: true
+hidden: true
 ---
+
+<style>
+.entry-image img {
+  min-width: unset;
+}
+@media (max-width: 768px) {
+  .entry-image img {
+    top: 0%;
+    bottom: unset;
+  }
+}
+@media (min-width: 768px) {
+  .entry-image img {
+    top: -20%;
+    bottom: unset;
+  }
+}
+.tiertitle-ss, .tiertitle-s, .tiertitle-a, .tiertitle-b, .tiertitle-c {
+  /* background-attachment: scroll; */
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+}
+.tiertitle-ss {
+  background-image: url({{site.baseurl}}/images/osu/GradeSmall-SS.svg);
+}
+.tiertitle-s {
+  background-image: url({{site.baseurl}}/images/osu/GradeSmall-S.svg);
+}
+.tiertitle-a {
+  background-image: url({{site.baseurl}}/images/osu/GradeSmall-A.svg);
+}
+.tiertitle-b {
+  background-image: url({{site.baseurl}}/images/osu/GradeSmall-B.svg);
+}
+.tiertitle-c {
+  background-image: url({{site.baseurl}}/images/osu/GradeSmall-C.svg);
+}
+.papertitle {
+  text-decoration: underline;
+}
+</style>
 
 ICYMI (in case you missed it, which most of you did) the IEEE VLHCC conference is happening this week.
 
@@ -25,17 +68,19 @@ I saw some papers which I thought were extremely applicable and interesting, and
 
 Since I'm a huge nerd who plays plenty of games using the tier system (looking at you OSU), I'll use that again here. My tiers are based mostly on how interesting / applicable I found the research, with the live presentation being less important for the ordering of this list.
 
+The full paper links are on the website: [human-se.github.io/vlhcc2019](https://human-se.github.io/vlhcc2019/)
+
+Most of you probably don't want to read through my thoughts on all the papers, so if you want just the good stuff, here's the best first:
+
 
 # SS Tier
 {:.tiertitle-ss}
-
-Papers almost everyone I know should read.
 
 ### Barriers to Reproducible Scientific Programming
 {:.papertitle}
 Presentation: SS
 
-I wish every researcher who ever touches a computer would read this paper or see this presentation. It was the best presentation I've seen here.
+I wish every researcher who ever touches a computer would either read this paper or see this presentation. It was the best presentation I've seen here.
 
 The problem is super relevant and is my number one frustration with other papers: I want to read the code behind it.
 
@@ -131,14 +176,36 @@ I greatly appreciate everyone else educating the lower CS students, since I know
 ### Towards a Model of API Learning
 {:.papertitle}
 
+This paper was very applicable to me since I am always coming across, learning, and trying to use new APIs.
+
+With this paper, it explains some background about how and why programmers have difficulty learning new APIs, which especially is useful when I'm designing new ones that I intend for other people to use.
+
+They didn't include any study data, but this is essentially the first building block in a good evaulation framework for understanding how people will learn new APIs.
+
 # A Tier
 {:.tiertitle-a}
 
 ### Designing Curated Conversation-Driven Explanations for Communicating Complex Technical Concepts
 {:.papertitle}
 
+The biggest focus of this seemed to be the tool they designed and tested to attempt to provide context-sensitive explanations for topics that e.g. uninvolved managers wouldn't understand.
+
+This would be awesome in concept, but the experiment here seemed incomplete and more work is needed on the tool IMO. I would love to be able to converse normally about highly technical stuff in my field with less inclined coworkers, but the difficulty of such a task for a computer seems very high.
+
+I suspect there is a lot more opportunity for further development here, but I have my doubts about how quickly we can come up with a real-world usable, deployable system.
+
 ### Investigating the Essential of Meaningful Automated Formative Feedback for Programming Assignments
 {:.papertitle}
+
+Since I'm still making my way through education at a formal institution I think that this experiment is useful to me in order to understand how students respond to feedback. (automated or not, the results still help to explain things)
+
+Now, although the title of this paper explicitly mentions Programming Assignments, I think this could be similar in topic to the feedback professional developers get from automated Unit Testing.
+
+Providing different levels of feedback here showed how students respond differently depending on how much information was given via the output of the automated tests.
+
+In essence, simply saying "test X failed" is an awful piece of feedback, but saying "we expected Y but got Z" was more useful. This seems obvious, but then they went and also evaluated how more intelligent systems giving feedback such as "check that you set variable N before copying" could change how the programmer performed.
+
+I think this topic should be expanded as the automated feedback programs improve, and also should be branched into potentially less obvious areas, such as the use of free CI tools by GitHub users to see how feedback causes developers to fix code in small open source projects.
 
 ### From GenderMag to InclusiveMag: An Inclusive Design Meta-Method
 {:.papertitle}
@@ -157,4 +224,4 @@ He was able to carefully and quickly answer very socially sensitive questions wi
 
 # VLHCC Overall
 
-Some talks from the conference didn't make it onto this list, for various reasons. Some of those papers I thought wouldn't be of interest to you readers, and some others I simply wasn't there (e.x. getting left behind by the bus because food took too long) or I didn't catch enough of the presentation to give it a complete rating.
+Some talks from the conference didn't make it onto this list, for various reasons. Some of those papers I thought wouldn't be of interest to the normal readers of this blog, and some others I simply wasn't there or I didn't catch enough of the presentation to give it a complete rating. (e.x. getting food for lunch taking over an hour for it to come out...)
