@@ -14,7 +14,7 @@ image:
   background: #filename in images/ to use as page background
 comments: false
 share: true
-published: true
+published: false
 ---
 
 In December of 2018 I finally received my UHK after months of waiting.
