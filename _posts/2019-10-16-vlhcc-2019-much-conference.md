@@ -218,9 +218,12 @@ He was able to carefully and quickly answer very socially sensitive questions wi
 # B Tier
 {:.tiertitle-b}
 
+*post is WIP*!
+
 # C Tier
 {:.tiertitle-c}
 
+*(should I even list these?)*
 
 # VLHCC Overall
 
