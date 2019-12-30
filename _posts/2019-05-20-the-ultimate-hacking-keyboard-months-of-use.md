@@ -21,9 +21,9 @@ In December of 2018 I finally received my UHK after months of waiting.
 
 After using it daily since, I'm 100% convinced that the UHK is worth the asking price, probably more, and I'm happy that I got it at over $100 off the current price.
 
-Currently priced at $350 USD it's definitely priced like the split ergonomic keyboard that it is, but what I think makes this one worth that is the open source, hackable nature of the keyboard.
+Currently at $350 USD it's definitely priced like the split ergonomic keyboard that it is, but what I think makes this one worth that is the open source, hackable nature of the keyboard.
 
-Here's my thoughts after using it as an almost daily driver for 6 months,
+Here's my thoughts after using it as my daily driver for many months,
 
 
 # Typing
