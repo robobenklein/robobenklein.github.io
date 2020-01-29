@@ -39,26 +39,22 @@ share: false
 
 </div>
 
-## I am:
+## Linux
 
- - an Ubuntu & Linux (GNU flavor) Addict
- - a [hacker](http://www.catb.org/jargon/html/H/hacker.html)
- - a Programmer in multiple languages
- - a videogame player (only on Linux)
- - probably a human. (needs more evidence)
+Distros I've used for real work:
 
-## I am *not*:
-
- - a Windows enthusiast.
- - an owner of any Apple products.
- - a sports fan.
- - a historian.
+ - OpenSUSE (~2008-2012)
+ - Ubuntu (~2010- ) (current server default)
+ - Debian (~2014- )
+ - CentOS (2016-2019)
+ - RHEL (2017-2019)
+ - Pop_OS! (2018- ) (current desktop default)
 
 ## Why "Unhexium"?
 
-**Unhexium** is the name of the very first laptop I bought with my own money. It's from the naming scheme I've been using for all my laptops since, Unseptium, Unoctium, etc.
+**Unhexium** is the name of the very first laptop/computer I bought completely with my own money. It's from the naming scheme I've been using for all my laptops since, Unseptium, Unoctium, etc.
 
-Unhexium is an important name to me because it's the first machine on which I ran Ubuntu as my primary OS and never since ran a proprietary OS on my personal machine.
+Unhexium is an important name to me because it's the first machine on which I ran Ubuntu as my primary OS and never since then have I ran a proprietary OS on any personal machine.
 
 Most people have a site like <name>.io or something... but robobenklein.??? just sounds really dumb for me to type and people already have a problem spelling my last name, not to mention how many times I've been called Rob because of that name.
 
@@ -69,3 +65,36 @@ It's a modification / adaptation / trace (svg form) of the first digital picture
 The bird is a *Cardinalis cardinalis* (Northern Red Cardinal) from Eastern Tennessee.
 
 I've been using it for my online presence for a very long time, making new versions of it every so often.
+
+<style>
+.avatar-imgs {
+  text-align: center;
+}
+.avatar-imgs img {
+  max-height: 20em;
+  width: auto;
+}
+</style>
+<div class="avatar-imgs" markdown="1">
+
+### Version 1 (before 2015)
+
+You can still see the railing that the bird was sitting on when I took this picture. Original resolution from the camera was 480p.
+
+![Bird V1](/images/avatar/RobobenkleinJustR768.png)
+
+### Version 2 (2015-2019)
+
+I essentially just did an SVG trace of the bird itself and placed it to sit inside the Robosane logo.
+
+![Bird V2](/images/avatar/robobenkleinBirdTransparent.png)
+
+### Version 3
+
+My sister remade the bird and a branch so that it's actually recognizable as a bird. (and not just a "red blob"...) Stopped using the Robosane logo for my personal avatar.
+
+![Bird V3](/images/avatar/robobenklein-rect-avatar-shaded-trace.svg)
+
+</div>
+
+If you find an old version online somewhere, chances are high that I've either abandoned that account or someone else is using my avatar for some reason.
