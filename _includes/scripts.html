@@ -3,19 +3,6 @@
 <script src="{{ site.url }}/assets/js/scripts.min.js"></script>
 <script src="{{ site.url }}/assets/js/site.js"></script>
 
-{% if site.google_analytics %}
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', '{{ site.google_analytics }}');
-</script>
-
-{% endif %}
-
 <!-- Matomo -->
 <script type="text/javascript">
   var _paq = window._paq || [];
