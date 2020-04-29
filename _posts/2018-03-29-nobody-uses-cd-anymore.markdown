@@ -6,7 +6,7 @@ created: 2018-03-29
 modified: 2020-04-29
 categories: linux
 description:
-tags: [zsh, linux, shell]
+tags: [zsh, linux, shell, dotfiles]
 image:
   feature: features/cd-wasting-time-olivier.png
   credit: #text to show as image credit
