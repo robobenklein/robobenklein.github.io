@@ -1,7 +1,9 @@
 ---
 layout: post
 title: Nobody Uses cd Anymore
-modified: 2018-06-27
+date: 2018-03-29
+created: 2018-03-29
+modified: 2020-04-29
 categories: linux
 description:
 tags: [zsh, linux, shell]
@@ -14,8 +16,9 @@ comments: true
 ghcommentid: 2
 share: true
 published: true
-date: 2018-03-29T20:41:09-04:00
 ---
+
+> 2020 Update: a new "cd" (see bottom of post)
 
 This article is due at least in part as a response to Olivier Lacan's post,
 
@@ -84,7 +87,7 @@ See for yourself:
 
 Here I'm using the `d` function that I have in my zshrc:
 
-```
+```zsh
 # unalias because OMZ had it set so that we couldn't pass args to `dirs`
 unalias d
 function d () {
@@ -105,3 +108,50 @@ The numbers are likely already bound in your shell! (They are part of OMZ and ot
 ## Afterword
 
 Hopefully you'll find at least one of these tips helpful. If you find yourself using another method for everyday directory cruising, I'd love to hear about it, shoot me a link!
+
+# 2020: Ah, I started using `cd` again...
+
+But not that old fashioned builtin!
+
+I use **my** cd now:
+
+```zsh
+# auto-fzy cd
+function cdaf () {
+  if [[ -d $1 ]]; then
+    builtin cd "$@"
+  else
+    local -a locations
+    local val
+    val=0
+    if [[ -n $1 ]]; then
+      locations+=(
+        "${(@f)$(_z -cl "$@" 2>&1 | tac)}"
+      )
+      # locations+=("${(r:10:)val} $HOME")
+    else
+      locations+=("${(r:10:)val} $HOME")
+      locations+=(
+        "${(@f)$(_z -l 2>&1 | tac)}"
+      )
+    fi
+    local godir=($(builtin print ${(j.\n.)locations} | fzy)) && {
+      (( #godir > 0 )) || return 0
+      shift godir
+      [[ ! -z $godir ]] && builtin cd ${godir}
+    }
+  fi
+}
+# compdef _z_zsh_tab_completion cd
+alias cd=cdaf
+```
+
+It uses fzy to perform automatic searching and interactive filtering!
+
+So now I end up using `cd` like so:
+
+<script id="asciicast-c71c8VPrk5S9PFz1LJtRp2wez" src="https://asciinema.org/a/c71c8VPrk5S9PFz1LJtRp2wez.js" async></script>
+
+You can see that entering `cd` on it's own will search through all of z's known directories, while `cd <search>` will only show matching subdirectories.
+
+Of course, it still works like normal `cd` if you give it an actual directory target.

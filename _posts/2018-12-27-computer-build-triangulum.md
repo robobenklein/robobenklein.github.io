@@ -6,7 +6,7 @@ created: 2018-12-27 # date of creation (shown value, defaults to `date`)
 modified: 2018-12-27 # date last updated (shown if different than created)
 categories: hardware
 description:
-tags: [amd, pc, nvidia, vega, pc, factorio, vr]
+tags: [amd, nvidia, factorio, vr]
 image:
   feature: 2018-12-27/IMG_20190102_183844_w.jpg
   credit: The Finished Build
