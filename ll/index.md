@@ -87,8 +87,8 @@ share: false
 
 |  |
 |:---:|
-| [About](/about/) |
-| [Unhexium](/) |
+| [About Me](/about/) |
+| [Unhexium (Blog)](/) |
 | [Keybase (+PGP)](https://keybase.io/robobenklein) |
 | [Github](https://github.com/robobenklein/) |
 | [Gitlab](https://gitlab.com/robobenklein/) |
@@ -97,5 +97,5 @@ share: false
 | [Mastodon (uwu.social)](https://uwu.social/@robobenklein) |
 | [Twitter (stale)](https://twitter.com/robobenklein) |
 | [Steam](https://steamcommunity.com/id/robobenklein/) |
-| [SoundCloud](https://soundcloud.com/robobenklein) |
+| [SoundCloud (stale)](https://soundcloud.com/robobenklein) |
 {:.linkedlist}
