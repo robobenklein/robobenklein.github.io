@@ -5,7 +5,7 @@ date: 2020-05-07 # date of publish (sorting value)
 created: 2020-05-07 # date of creation (shown value, defaults to `date`)
 modified: 2020-05-07 # date last updated (shown if different than created)
 categories: security
-description:
+description: "Zoom just acquired Keybase, and that doesn't make me feel too great about it..."
 tags: [keybase, internet, software]
 image:
   feature: 2020-05-07/keybase-zoom.png
