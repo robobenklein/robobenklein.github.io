@@ -54,3 +54,29 @@ Essentially, the users need the ability to run their own Keybase servers, includ
 And please note I am *not* talking about depending on Keybase servers just for identity purposes, I want to see users able to bypass the [250GB free user storage quota](https://book.keybase.io/docs/files#storage) or host their own chat and audio/video call server. They should be able to discover other and more relevant users by finding users on the same federated Keybase instance as themselves. In a perfect world there wouldn't be any reason not to join Keybase, if you don't trust anyone but yourself you can read every line of source code and run the federated Keybase instance on hardware you own.
 
 I believe that federation of the Keybase network is directly in line with the desires of many crypto nerds, Keybase users, and fediverse members, and keeping Keybase.io as the default public node in the federation would still allow Keybase to operate as the for-profit company that it is.
+
+## Federating Keybase
+
+Alright, I've said what I want, but how are we going to get there?
+
+First, I want to get an official response from Keybase the company on the topic of opening up the serverside software for federation.
+
+There are apparently already discussions on this going back to 2014:
+
+ - [keybase/keybase-issues/issues/162: Federation](https://github.com/keybase/keybase-issues/issues/162)
+ - [keybase/client/issues/6374: "Server?"](https://github.com/keybase/client/issues/6374) - this issue is where a lot of the reactions are being posted
+
+And in some related discussions I can find some not-so-great previous decisions being made that make me think Keybase might not be so open to the idea:
+
+ - [On the topic of Keybase being a central authority on usernames](https://github.com/keybase/keybase-issues/issues/166#issuecomment-47928476)
+ - [Using "secret sauce" to fight spammers and scammers is not a good approach...](https://github.com/keybase/client/issues/6374#issuecomment-477285994)
+
+If you find more postings by Keybase employees or official statements please let me know so I can add them here.
+
+## Alternatively, Forking
+
+In the case that Keybase ends up being completely unresponsive or rejects the idea altogether, my personal opinion is that the open source community should get together to implement our own server backend.
+
+I expect a lot of federation conventions would be taken from projects like Mastodon, especially the issue of username uniqueness, so it seems at first to be a project that would mostly involve replicating functionality directly from Keybase's APIs.
+
+With an open, community-backed server implementation, we should be able to minimize the security risks by using the established, peer-reviewed, and open-source Keybase apps/clients as a fork source with just a few line changes to switch API endpoints to a user-defined address.
