@@ -3,7 +3,7 @@ layout: post
 title: "Atom Package Development Tricks for Linux"
 date: 2019-05-20 # date of publish (sorting value)
 created: 2019-03-17 # date of creation (shown value, defaults to `date`)
-modified: 2019-05-20 # date last updated (shown if different than created)
+modified: 2020-05-31 # date last updated (shown if different than created)
 categories: atom
 description:
 tags: [atom, linux, javascript, firejail]
@@ -210,3 +210,13 @@ For a clean Atom install (a completely fresh home directory) I use
 <pre>GTK_IM_MODULE=xim <font color="#4D9A05">firejail</font> <font color="#05979A">--private</font> atom <font color="#05979A">-d</font> <font color="#BF23E0"><u style="text-decoration-style:single">.</u></font></pre>
 
 This allows me to check that a plugin will work on a fresh install, since my own Atom setup is already quite loaded with far too many plugins and config changes.
+
+## Atom 1.47.0 and Electron Sandboxing
+
+Some new version of Atom introduced the chrome/electron sandboxing SUID binary, so my new firejail commands include `--no-sandbox` passed to `atom`.
+
+<pre>GTK_IM_MODULE=xim <font color="#4E9A06">firejail</font> <font color="#06989A">--name=atomdev</font> <font color="#06989A">--overlay-tmpfs</font> atom <font color="#06989A">--no-sandbox</font> <font color="#06989A">-d</font> <font color="#75507B"><u style="text-decoration-style:single">.</u></font></pre>
+
+And of course for starting a cleanroom Atom instance:
+
+<pre>GTK_IM_MODULE=xim <font color="#4E9A06">firejail</font> <font color="#06989A">--profile=$HOME/code/configs/firejail/atom.profile</font> <font color="#06989A">--name=atomdev</font> <font color="#06989A">--private</font> sh <font color="#06989A">-c</font> <font color="#C4A000">&apos;apm install code-ribbon &amp;&amp; atom --no-sandbox -d .&apos;</font></pre>
