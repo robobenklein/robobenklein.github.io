@@ -71,10 +71,11 @@ share: false
   transition: all 0.3s ease;
   border: 2px solid #ed2024;
 }
-.linkedlist a {
+.linkedlist td {
   padding: 10px 0px;
   display: block;
   width: 100%;
+.linkedlist a {
   color: unset;
 }
 .linkedlist a:hover {
@@ -89,13 +90,14 @@ share: false
 |:---:|
 | [About Me](/about/) |
 | [Unhexium (Blog)](/) |
-| [Keybase (+PGP)](https://keybase.io/robobenklein) |
+| [Keybase (PGP=F7A36255)](https://keybase.io/robobenklein) |
 | [Github](https://github.com/robobenklein/) |
 | [Gitlab](https://gitlab.com/robobenklein/) |
 | [LinkedIn](https://linkedin.com/in/robobenklein) |
 | [StackExchange: AskUbuntu](https://askubuntu.com/users/162914/robobenklein) |
-| [Mastodon (uwu.social)](https://uwu.social/@robobenklein) |
 | [Twitter (stale)](https://twitter.com/robobenklein) |
 | [Steam](https://steamcommunity.com/id/robobenklein/) |
 | [SoundCloud (stale)](https://soundcloud.com/robobenklein) |
 {:.linkedlist}
+<!-- | Email: robobenklein@{[gmail.com](mailto:robobenklein@gmail.com),[robosane.net](mailto:robobenklein@robosane.net),[unhexium.net](mailto:robobenklein@unhexium.net)} | -->
+<!-- | [Mastodon (uwu.social)](https://uwu.social/@robobenklein) | -->
