@@ -5,7 +5,7 @@ date: 2020-10-14 # date of publish (sorting value)
 created: 2020-10-14 # date of creation (shown value, defaults to `date`)
 modified: 2020-10-14 # date last updated (shown if different than created)
 categories: utk
-description:
+description: "A HowTo for running MPI programs across UTK's EECS lab machines"
 tags: [linux, mpi, utk, hpc]
 image:
   feature: #filename in images/ for post header
@@ -46,6 +46,8 @@ Host hydra*
 ```
 
 Now you should be able to `ssh hydra0` without typing in your netID password. Then while logged into a hydra machine, you should be able to ssh into any other hydra machine once again without needing your password.
+
+If it still requires your password to ssh between two hydra nodes, then make sure you've correctly enabled SSH agent forwarding from your local machine.
 
 ## Installing OpenMPI
 
