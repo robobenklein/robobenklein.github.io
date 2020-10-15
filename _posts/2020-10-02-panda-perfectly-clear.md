@@ -5,7 +5,7 @@ date: 2020-10-02 # date of publish (sorting value)
 created: 2020-10-02 # date of creation (shown value, defaults to `date`)
 modified: 2020-10-15 # date last updated (shown if different than created)
 categories: audio
-description: "My first impressions of the Drop x THX Panda Headphones."
+description: "First impressions of the Drop x THX Panda Headphones from a wannabe audiophile."
 tags: [audio, headphones, pulseaudio, hardware]
 image:
   feature: 2020-10-02/20201002_140744.jpg
