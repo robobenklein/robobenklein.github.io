@@ -40,8 +40,12 @@ body {
 	}
 
 	.footnotes {
+		ol, ul {
+			padding-left: 22px;
+		}
 		ol, li, p {
 			@include font-size(14);
+			margin-bottom: 0.2em;
 		}
 	}
 }
