@@ -54,7 +54,7 @@ KeyField Homeservers will be the foundation of the backbone for the network, the
 
 ## KeyField user accounts
 
-Notably I do not think that user IDs should be tied to a specific homeserver, I not like that Mastodon and Matrix usernames always include the domain of the homeserver, but I understand why it's needed.
+Notably I do not think that user IDs should be tied to a specific homeserver, I do not like that Mastodon and Matrix usernames always include the domain of the homeserver, but I understand why it's needed.
 
 Instead of linking accounts to a specific homeserver I'd like to find a method that allows a single user, identified by their account/master key, to move between homeservers at will.
 
