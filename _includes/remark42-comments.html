@@ -1,0 +1,32 @@
+<div class="entry-content">
+  <div><span id="dark_remark_notice" style="text-align:center;font-style:italic;font-weight:bold;"></span></div>
+  <div id="remark42"></div>
+</div>
+
+<script>
+var remark_config = {
+  host: "https://remark42.unhexium.net",
+  site_id: 'UNHEXIUM',
+  components: ['embed'],
+  // url: '{{ page.permalink }}',
+  // max_shown_comments: 10,
+  theme: unhexium_dark_mode ? 'dark' : 'light',
+  page_title: '{{ page.title }}', // optional param; if it isn't defined `document.title` will be used
+  locale: 'en',
+  show_email_subscription: false
+};
+function load_remark42 () {
+  (function(c) {
+    for(var i = 0; i < c.length; i++) {
+      var d = document, s = d.createElement('script');
+      s.src = remark_config.host + '/web/' +c[i] +'.js';
+      s.defer = true;
+      (d.head || d.body).appendChild(s);
+    }
+  })(remark_config.components || ['embed']);
+}
+addLoadEvent(load_remark42);
+addOnDarkChangeEvent(() => {
+  document.getElementById('dark_remark_notice').innerHTML = "Reload the page to update comments color theme.";
+});
+</script>

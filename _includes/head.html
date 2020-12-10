@@ -41,6 +41,11 @@ dark_mode_link='<link id="dark_mode_style" rel="stylesheet" href="/assets/css/da
 if ( document.cookie.match(/^(.*;)?\s*unhexium_dark_mode\s*=\s*[^;]+(.*)?$/) ) {
   // document.querySelector('head').innerHTML += dark_mode_link;
   document.write(dark_mode_link);
+  var unhexium_dark_mode = true;
+}
+var darkchangefunctions = [];
+function addOnDarkChangeEvent(func) {
+  darkchangefunctions.push(func);
 }
 // then a helper to work with to delay things until the page finishes
 function addLoadEvent(func) {

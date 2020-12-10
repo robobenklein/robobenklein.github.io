@@ -45,6 +45,9 @@ function toggle_dark_mode() {
     add_dark_style_link();
     setCookie("unhexium_dark_mode", "enabled", 180);
   }
+  darkchangefunctions.forEach(function(func) {
+    func();
+  });
 }
 
 // Add auto-anchors to all specified levels of headers
