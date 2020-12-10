@@ -11,7 +11,7 @@ var remark_config = {
   // url: '{{ page.permalink }}',
   // max_shown_comments: 10,
   theme: unhexium_dark_mode ? 'dark' : 'light',
-  page_title: '{{ page.title }}', // optional param; if it isn't defined `document.title` will be used
+  page_title: "{{ page.title | escape }}", // optional param; if it isn't defined `document.title` will be used
   locale: 'en',
   show_email_subscription: false
 };
