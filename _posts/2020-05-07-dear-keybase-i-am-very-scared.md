@@ -12,7 +12,7 @@ image:
   credit: Keybase Article
   creditlink: https://keybase.io/blog/keybase-joins-zoom
   background: #filename in images/ to use as page background
-comments: false
+comments: true
 share: true
 published: true
 ---

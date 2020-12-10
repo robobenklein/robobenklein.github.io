@@ -12,7 +12,7 @@ image:
   credit: The crash screen
   creditlink: #when credit is clicked.
   background: #filename in images/ to use as page background
-comments: false
+comments: true
 share: true
 published: true
 ---

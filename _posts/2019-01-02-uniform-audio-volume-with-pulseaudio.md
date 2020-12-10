@@ -12,7 +12,7 @@ image:
   credit: pavucontrol view
   creditlink: /images/2019-01-02/GIFrecord_2019-01-02_201528.gif
   background: #filename in images/ to use as page background
-comments: false
+comments: true
 share: true
 published: true
 ---

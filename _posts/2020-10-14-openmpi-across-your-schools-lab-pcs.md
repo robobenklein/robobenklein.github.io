@@ -12,7 +12,7 @@ image:
   credit: #text to show as image credit
   creditlink: #when credit is clicked.
   background: #filename in images/ to use as page background
-comments: false
+comments: true
 share: true
 published: true
 hidden: true # don't show on frontpage

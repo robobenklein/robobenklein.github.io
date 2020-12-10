@@ -12,7 +12,7 @@ image:
   credit: The Finished Build
   creditlink: #when credit is clicked.
   background: cat-bgs/hex-parallel-tri.png #filename in images/ to use as page background
-comments: false
+comments: true
 share: true
 published: true
 ---
