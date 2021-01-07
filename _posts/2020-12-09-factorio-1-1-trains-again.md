@@ -121,4 +121,14 @@ The circuitry for the maximum stop limit is the same, so you could even just rep
 
 With a functioning Requester and Provider, we're ready to start deploying these stations and using them.
 
+{% capture images %}
+  /images/factorio/trainstops.png
+  /images/factorio/trains.png
+{% endcapture %}
+{% include gallery images=images cols=2 caption="Some trains servicing Iron and Copper Ore routes" %}
+
+You can deploy as many of these stations as you want, and keep adding copies of the same train for an item so long as you don't add more trains than your stops can handle. I recommend refueling at either the provider or requester instead of using a fuel depot so that you can cut down even further on network congestion.
+
+Eventually I'll add a complete blueprint book with a few different trainload capacities, but for now all you really need to get started is the two blueprints I left above.
+
 {% include copycodeblock.html %}
