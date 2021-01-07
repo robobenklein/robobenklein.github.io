@@ -13,4 +13,5 @@ Session.vim
 
 node_modules/
 vendor/
-
+!assets/js/vendor/
+!_sass/vendor/

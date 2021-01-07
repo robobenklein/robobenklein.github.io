@@ -40,6 +40,7 @@ $(document).ready(function() {
     },
     image: {
       tError: '<a href="%url%">Image #%curr%</a> could not be loaded.',
+      titleSrc: 'alt',
     },
     removalDelay: 300, // Delay in milliseconds before popup is removed
     // Class that is added to body when popup is open.

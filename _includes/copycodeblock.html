@@ -1,0 +1,34 @@
+
+<script>
+function selectText(element) {
+    if (document.selection) { // IE
+        var range = document.body.createTextRange();
+        range.moveToElementText(element);
+        range.select();
+    } else if (window.getSelection) {
+        var range = document.createRange();
+        range.selectNode(element);
+        window.getSelection().removeAllRanges();
+        window.getSelection().addRange(range);
+    }
+}
+
+function copyCodeBlockText(element) {
+  e = $(element, 'code')[0]
+  console.debug("Copy code block:", e);
+  selectText(e);
+  document.execCommand("copy");
+}
+</script>
+
+<style>
+.clicktocopycode {
+  margin-bottom: 1.4rem;
+}
+.clicktocopycode div.highlight::after {
+  content: "click to copy";
+  float: right;
+  position: relative;
+  font-style: italic;
+}
+</style>
