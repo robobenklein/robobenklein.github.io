@@ -17,6 +17,8 @@ published: true
 date: 2018-05-10
 ---
 
+> January 2021: [Factorio 1.1 introduced stop train limits! Read my take on the feature here.](/factorio/factorio-1-1-trains-again/)
+
 > Post has been updated September 2019! Read on further below,
 
 This article was partially inspired by Korezaan's post:
