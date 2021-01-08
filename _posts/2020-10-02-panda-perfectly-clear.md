@@ -3,9 +3,9 @@ layout: post
 title: "Drop X THX Panda: Perfectly clear"
 date: 2020-10-02 # date of publish (sorting value)
 created: 2020-10-02 # date of creation (shown value, defaults to `date`)
-modified: 2020-10-15 # date last updated (shown if different than created)
+modified: 2021-01-07 # date last updated (shown if different than created)
 categories: audio
-description: "First impressions of the Drop x THX Panda Headphones from a wannabe audiophile."
+description: "Impressions of the Drop x THX Panda Headphones from a wannabe audiophile and open source diehard."
 tags: [audio, headphones, pulseaudio, hardware]
 image:
   feature: 2020-10-02/20201002_140744.jpg
@@ -16,6 +16,8 @@ comments: true
 share: true
 published: true
 ---
+
+> Updates: [3 Months](#3-month-update)
 
 After many months of anticipation and multiple delays in production, I finally have on my head a pair of "the world's highest fidelity wireless headphones."
 
@@ -28,19 +30,31 @@ A lot of people will probably disagree with me, I am no expert in audio, after a
 
 Just as plain and unmarked as the headphones themselves the packaging box had barely a single marking on the outside.
 
-![Plastic Wrapped Black Box](/images/2020-10-02/IMG_20201002_140107.jpg)
+{% capture images %}
+  /images/2020-10-02/IMG_20201002_140107.jpg
+{% endcapture %}
+{% include gallery images=images cols=1 caption="Plastic Wrapped Black Box" %}
 
 Inside the outer black box, was another solid black container.
 
-![Black carrying case](/images/2020-10-02/20201002_140654.jpg)
+{% capture images %}
+  /images/2020-10-02/20201002_140654.jpg
+{% endcapture %}
+{% include gallery images=images cols=1 caption="Black carrying case" %}
 
 I think I understand the theme now.
 
-![The utterly black headphones themselves](/images/2020-10-02/20201002_140744.jpg)
+{% capture images %}
+  /images/2020-10-02/20201002_140744.jpg
+{% endcapture %}
+{% include gallery images=images cols=1 caption="The utterly black headphones themselves" %}
 
 And of course the included cables match the utterly black, relatively featureless smooth surface style too:
 
-![USB-C and 3.5mm audio cable](/images/2020-10-02/20201002_140838.jpg)
+{% capture images %}
+  /images/2020-10-02/20201002_140838.jpg
+{% endcapture %}
+{% include gallery images=images cols=1 caption="USB-C and 3.5mm audio cable" %}
 
 # The first sounds heard
 
@@ -100,6 +114,52 @@ I think I'll end up looking for some extra padding to add to the headband. Will 
 
 I charged them twice in the two weeks it's been since I got them, not only do they achieve the advertised listening time, but they hold a charge while unused extremely well. USB C-C charging also means I can charge them from my phone for example, although I do have a battery pack to do that job.
 
+# 3-month update
+
+I ended up using the Pandas more days than not, and while the experience is still excellent, a few minor issues have shown themselves.
+
+## Wear and tear
+
+The most notable changes were two small cases of early weardown on the physical unit themselves.
+
+On one side of the headphones upper rotational joint the screw was just a tiny bit (0.3mm?) higher than the metal surface, resulting in the screw grabbing the plastic of the headband extension... gosh, it's hard to explain, just look at this picture:
+
+{% capture images %}
+  /images/2020-10-02/IMG_20210107_232036_1.jpg
+{% endcapture %}
+{% include gallery images=images cols=1 caption="Headband plastic separation over the upper rotational joint screws." %}
+
+Notice how there's a bit of an edge around the metal the screws are in? I suspect that's part of what helped to separate the inner plastic of that headband support.
+
+I've gotten used to it by now, but before a little tweaking I would often accidentally pull the two parts of the plastic headband support apart when rotating the earcups, thankfully that hasn't yet caused it to crack or split entirely.
+
+The other bit of wear and tear I noticed was that the rubber stop dot came out of the left side, but is now somehow stuck to the earcup instead of the headband portion.
+
+{% capture images %}
+  /images/2020-10-02/IMG_20210107_232436_1.jpg
+  /images/2020-10-02/IMG_20210107_232500_1.jpg
+{% endcapture %}
+{% include gallery images=images cols=2 caption="First: normal rubber stop dot placement, second: why is it there???" %}
+
+That bit of white next to the rubber stop dot is what I assume to be the sticky remains of whatever glue they tried to use to keep the rubber dot in place. Can't just easily scratch it off, but I might try some lightweight chemical removers later.
+
+## Audio adjustments
+
+Over daily usage I compare the Panda's audio soundstage to both my HD58X headphones and to my room's speaker setup, in all cases I found that I needed to increase the sub-bass (~30-140hz?) slightly to match the mid-bass response. Doing so with a simple EQ adjustment was all I needed, and in cases where less bass is desired I think turning down the mid-bass (~150-280hz?) helps to level out the low end.
+
+I think DMS was the first to say something about how the Pandas handle snares extremely well, and I agree. The most noticeable think I hate about standard car audio systems is how a snare or wide-frequency sound will absolutely drown out the rest of the music, but with the Pandas I could not find a single case where any part of the music became muddled or obscured. This makes the Pandas my go-to choice for long car rides, at least when someone else is driving, because they cut out a great amount of the ambient road / tire / engine noise.
+
+## The headband comfort solution
+
+{% capture images %}
+  /images/2020-10-02/IMG_20210108_001942_1.jpg
+{% endcapture %}
+{% include gallery images=images cols=1 caption="Pandas with added headband cushion." %}
+
+[https://www.amazon.com/gp/product/B07JGWLN1Q/](https://www.amazon.com/gp/product/B07JGWLN1Q/){: rel="noreferrer"} (specifically the 1 & 8/9" inch width version)
+
+Really surprised that's all it took, I'm able to wear them comfortably for hours on end now and the point pressure on the top of my head is gone.
+
 # Future updates
 
-As I continue to use these on a daily basis, I'll update here with any major news. (Including pulseaudio fixing the bluetooth codecs.) Let's see how these hold up over time.
+As I continue to use these on a daily basis, I'll update here with any major news. (Including pulseaudio fixing the bluetooth codecs.) I'm hoping and expecting these will last far past their warranty date.
