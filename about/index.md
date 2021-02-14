@@ -23,11 +23,11 @@ share: false
 
  - CS Student at [UTK](https://www.eecs.utk.edu/)
 
- - [Robotics Coordinator](https://bigorangerobots.com/) for [FIRST Alumni at UTK](https://volink.utk.edu/organization/firstalumni)
-
- - Undergrad Researcher (Software Engineering Tools) under [Dr. Henley](http://web.eecs.utk.edu/~azh/) at [UTK](https://www.eecs.utk.edu/)
+ - Graduate Research Assistant (Software Engineering Tools) under [Dr. Henley](http://web.eecs.utk.edu/~azh/) at [UTK](https://www.eecs.utk.edu/)
 
 <div class="title-previous" markdown="1">
+
+ - [Robotics Coordinator](https://bigorangerobots.com/) for [FIRST Alumni at UTK](https://volink.utk.edu/organization/firstalumni)
 
  - Systems Development / Integration intern for [ORNL's OLCF](https://www.olcf.ornl.gov/)
 
@@ -48,7 +48,7 @@ Distros I've used for real work:
  - Debian (~2014- )
  - CentOS (2016-2019)
  - RHEL (2017- )
- - Pop_OS! (2018- ) (current desktop default)
+ - Pop\_OS! (2018- ) (current desktop default)
 
 # Why "Unhexium"?
 
