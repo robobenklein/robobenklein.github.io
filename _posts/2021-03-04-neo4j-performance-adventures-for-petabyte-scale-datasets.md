@@ -80,12 +80,21 @@ Because of [this single extra condition inside the WHERE clause](https://github.
 
 So instead I needed a way to refer to the nodes I just created with a constant-time lookup. I spent a whole day just thinking about how to overcome this problem, and finally ended up just accepting the fact that it would be faster to just execute two queries rather than continue banging my head against cypher syntax quirks.
 
+After the first query I use the returned created node IDs to do the constant-time relationship creation in the second query. There might be some way to create relationships based on results from an `UNWIND`, but as long as we've got constant-time inserts on the db side I am happy.
+
 And it was indeed faster:
+
+{% capture images %}
+  /images/2021-03-04/nn3.png
+{% endcapture %}
+{% include gallery images=images cols=1 caption="Snakeviz of single-file run" %}
+
+How's that for performance improvement? We went from 330 seconds to under 3! Of course, 330 seconds for a single file was kind of absurd in the first place.
 
 {% capture images %}
   /images/2021-03-04/vroom.png
 {% endcapture %}
-{% include gallery images=images cols=1 caption="Terminal progress view via tqdm: inserting over 100k WSTNodes per second" %}
+{% include gallery images=images cols=1 caption="Terminal progress view via tqdm: inserting over 100k WSTNodes per second via 128 processes" %}
 
 Now that my program was blazing fast, Neo4j has trouble keeping up:
 
