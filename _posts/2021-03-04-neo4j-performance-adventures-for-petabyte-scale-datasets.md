@@ -11,10 +11,10 @@ image:
   feature: 2021-03-04/neo.png
   credit: Neo4j Web UI
   creditlink: #when credit is clicked.
-  background: #filename in images/ to use as page background
+  background: 2021-03-04/bg.png
 comments: true
 share: true
-published: false
+published: true
 ---
 
 I recently proposed a new research project idea: let's take all of GitHub (or \<insert your preferred VCS host\>) and create a multi-language (even partially language-agnostic) concrete syntax tree of all the code so that we can do some otherwise impossibly difficult further research and answer incredibly complex questions.
@@ -23,7 +23,7 @@ This project is named [World Syntax Tree](https://github.com/utk-se/WorldSyntaxT
 
 Originally I started the project using MongoDB and storing references between nodes as `ObjectID`s, but I quickly realized that a tabular format was not performant enough to be able to effectively represent a true tree.
 
-So instead I switch over the whole project to the first and foremost graph database I came across: Neo4j.
+So instead I switched over the whole project to the first and foremost graph database I came across: Neo4j.
 
 As I quickly learned the new database paradigm I also quickly learned that there are a lot of problems between me and inserting literally hundreds of terabytes of data into a single graph...
 
@@ -76,7 +76,7 @@ Once we have a way to refer to nodes uniquely within the file we can batch toget
 
 If any experienced Neo4j user has followed along so far, they might have already realized that the `preorder` property on my WSTNodes is not unique within the graph, so even though [we do have an index on that property](https://github.com/utk-se/WorldSyntaxTree/blob/06c58a8ce5e06e3150334e454aeee89ae4a6bbb1/wsyntree/tree_models.py#L65), when your graph grows to terabytes in size, you will have far too many nodes with the same `preorder` to efficiently search them all to find the one that has a relationship to the same `WSTFile` node we're working in.
 
-Because of [this single extra condition inside the WHERE clause] the Neo4j database regularly would pin all 128 hardware threads of our lab server just searching through `WSTNode`s with the same `preorder` just to find the one that has a relationship to our `WSTFile`.
+Because of [this single extra condition inside the WHERE clause](https://github.com/utk-se/WorldSyntaxTree/blob/06c58a8ce5e06e3150334e454aeee89ae4a6bbb1/wsyntree_collector/neo4j_collector_worker.py#L75) the Neo4j database regularly would pin all 128 hardware threads of our lab server just searching through `WSTNode`s with the same `preorder` just to find the one that has a relationship to our `WSTFile`.
 
 So instead I needed a way to refer to the nodes I just created with a constant-time lookup. I spent a whole day just thinking about how to overcome this problem, and finally ended up just accepting the fact that it would be faster to just execute two queries rather than continue banging my head against cypher syntax quirks.
 
@@ -90,3 +90,42 @@ And it was indeed faster:
 Now that my program was blazing fast, Neo4j has trouble keeping up:
 
 # Not my problem(s)
+
+These are problems I encountered outside the scope of my own program.
+
+## Too many transactions in memory
+
+{% capture images %}
+  /images/2021-03-04/oops.png
+{% endcapture %}
+{% include gallery images=images cols=1 caption="Watching our 512GB of RAM get used and Neo4j gets OOM'd" %}
+
+My initial guess for large batch sizes was around 10,000 nodes per query, however when we multiply that by 128 (processes running in parallel) and a conservative estimate for RAM usage, we're looking at trying to processes transactions in memory at multiple gigabytes per second.
+
+The solution to this was to manually set the memory settings in `neo4j.conf`, since I have a fairly large system dedicated to research work I could steal quite a bit of memory:
+
+```conf
+# Settings from memrec had to be changed a bit vs what was recommended:
+# I need at least 128G left over for my own code to run on the same system
+dbms.memory.heap.initial_size=31g
+dbms.memory.heap.max_size=128g
+dbms.memory.pagecache.size=259500m
+
+# It is also recommended turning out-of-memory errors into full crashes,
+# instead of allowing a partially crashed database to continue running:
+dbms.jvm.additional=-XX:+ExitOnOutOfMemoryError
+```
+
+## Database not up to the requested version
+
+```
+neo4j.exceptions.TransientError: {code: Neo.TransientError.Transaction.BookmarkTimeout} {message: Database 'top1k' not up to the requested version: 113071. Latest database version is 113054}
+```
+
+This is a tricky one, I still haven't fully pinned down the exact conditions for this to happen, but it boils down to the database not applying the transactions in a timely manner, meaning the current "live version" could be more than a few transactions out of date. (With my scale of data it ranged from 5-20 versions out of date.)
+
+The best solution I could come up for this problem was to only run half as many worker processes, my guess is that the database was having trouble handling 128 consecutive transactions at a time.
+
+I'd like to know why exactly this happens, and if possible I would much rather prefer the query to stall until the requested version is met (or error the original query if that version can't be reached) rather than fail a query later on.
+
+If you happen to know something about why or how this happens, please leave a comment, email me, or even [open an issue on our project](https://github.com/utk-se/WorldSyntaxTree)!
