@@ -56,7 +56,7 @@ share: false
   background-position: 50%;
   transform: scale(10, 10);
 }
-.linkedlist thead {
+.linkedlist.nohead thead {
   display: none;
 }
 .linkedlist td {
@@ -98,6 +98,4 @@ share: false
 | [Twitter (stale)](https://twitter.com/robobenklein) |
 | [Steam](https://steamcommunity.com/id/robobenklein/) |
 | [SoundCloud (stale)](https://soundcloud.com/robobenklein) |
-{:.linkedlist}
-<!-- | Email: robobenklein@{[gmail.com](mailto:robobenklein@gmail.com),[robosane.net](mailto:robobenklein@robosane.net),[unhexium.net](mailto:robobenklein@unhexium.net)} | -->
-<!-- | [Mastodon (uwu.social)](https://uwu.social/@robobenklein) | -->
+{:.linkedlist.nohead}
