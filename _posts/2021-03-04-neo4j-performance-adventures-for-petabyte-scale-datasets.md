@@ -138,3 +138,19 @@ The best solution I could come up for this problem was to only run half as many 
 I'd like to know why exactly this happens, and if possible I would much rather prefer the query to stall until the requested version is met (or error the original query if that version can't be reached) rather than fail a query later on.
 
 If you happen to know something about why or how this happens, please leave a comment, email me, or even [open an issue on our project](https://github.com/utk-se/WorldSyntaxTree)!
+
+### A persistent problem
+
+I thought if I reduced the load on the database significantly it would have no problem keeping up, so I brought the batch size down to just 100 and ran only 8 processes, and yet we still arrive at the same problem:
+
+> Database 'top1k' not up to the requested version: 2282021. Latest database version is 2282020
+
+Why is my database stuck in 2020 you ask? Not a clue, so this is really where the adventure begins.
+
+Over the few days since initial release of this post, I have been trying nothing but to get to the bottom of why this is occuring, I have carefully picked through both the neo4j `debug.log` and `query.log` and nothing really stood out as a problem.
+
+One thing notable about these errors is they always seem to happen after passing around ~250GB of data stored. The most I could store before being stopped by this error was ~319GB (uncompressed) in the neo4j data directory. There are only ~500 million nodes and ~1.7 billion relationships at this point, meaning the average inserted node was well under a kilobyte, all within reason.
+
+I can definitively confirm that there's no problem with the hardware, the data directory is stored on a RAIDZ (zfs) array of all SSD storage, and I've confirmed that I/O time is not the bottleneck, and there are over 50 unused CPU cores to spare.
+
+So my thoughts now are that the insert time for these nodes might not actually be constant as I thought, otherwise we'd see the same behavior between millions of nodes and just a few thousand. Perhaps there's nonlinear work being done in some of the indexes? Maybe the data is too large to be indexed fully? There are a number of reasons to test, so finding the real cause will take quite a bit of time.
