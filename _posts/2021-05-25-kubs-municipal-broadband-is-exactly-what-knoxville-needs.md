@@ -5,7 +5,7 @@ date: 2021-05-25 # date of publish (sorting value)
 created: 2021-05-29 # date of creation (shown value, defaults to `date`)
 modified: 2021-05-29 # date last updated (shown if different than created)
 categories: internet
-description:
+description: "KUB is planning to bring municipal broadband to Knoxville, finally! Here's what I think,"
 tags: [knoxville, internet, isp]
 image:
   feature: 2021-05-25/IMG_20200729_172332.jpg
