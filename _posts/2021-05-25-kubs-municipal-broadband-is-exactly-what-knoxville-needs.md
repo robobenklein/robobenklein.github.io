@@ -36,6 +36,8 @@ The few viewpoints against the rollout I heard had to do with how KUB was fundin
 
 To me this makes sense, since I know how the electrical division was already in need of a portion of the fiber length to be laid in order to improve communication among their systems. (Improving resiliency and recovery for everyone.) In fact even without the internet service the electrical division would still want to roll it's own fiber or make improvements to it's systems, which is where the other 4.5% increase is expected to go.
 
+## By the numbers
+
 However, even if we do say that electric users are affected by the 9% increase to their electric bill, almost all of those electric subscribers also subscribe to some kind of internet service where the rates will be far cheaper by more than the extra 9% they'd be paying from their electric.
 
 Let's say you're someone who's already in a well-serviced area and are currently subscribed to AT&T or Comcast's gigabit service.
@@ -46,7 +48,23 @@ Let's say you're someone who's already in a well-serviced area and are currently
 | Internet Only | Comcast: $116,<br> AT&T: $80 | KUB: $65 |
 | Electric + Internet total | $200 to $236 | $195.8 |
 
-So in the end, *the majority of people save money* even with the electric rate increase. If we assume that the existing ISPs lower their rates to compete, then we can even assume that you won't even have to change internet providers if you don't want to.
+So in the end, even those with existing good service *still save money* even with the electric rate increase. If we assume that the existing ISPs lower their rates to compete, then we can even assume that you won't even have to change internet providers if you don't want to.
+
+Now that I've shown the case for those in well-serviced areas, as soon as we look at the under-served and monopolized areas of Knoxville we quickly realize that many are without any decent service at all. For those people I am sure that anyone working a modern job or was stuck at home for the pandemic would be willing to spare an extra $10 to go from (IMO) garbage internet service to a reasonable internet expectation for the 21st century.
+
+Here is a real data comparison for my own prior residence:
+
+| Service | Cost before KUB fiber | Cost after KUB fiber |
+| --- | --- | --- |
+| Electric | $140 | 152.6 |
+| Internet Only | Comcast's 100/6 plan: $60 | KUB: $65 |
+| Electric + Internet total | $200 | $217.6 |
+
+So, for $17.6 more per month, I can have 10 *times* the download speed, and *more than 150x the upload speed*. I don't think there's any doubt which I would choose. Keep in mind these numbers include running my personal server rack, most normal people don't use as much electricity as I do, so their total cost will of course be lower.
+
+However if we were to switch from the ~~equivalent~~ closest plan by speed (Comcast's gigabit, still not symmetric) which is normally $116/month we would save a huge chunk of money by switching to KUB. Keep in mind speeds above 100mbit/s were not even available at this household until very recently.
+
+## At the forum
 
 The other common complaints I heard were about the forum format itself, I guess it was less of a forum and more of a public speaking to the board, since questions were not being answered live. Instead the questions asked to the technical team after the public speakers were done will be posted to KUB's website.
 
