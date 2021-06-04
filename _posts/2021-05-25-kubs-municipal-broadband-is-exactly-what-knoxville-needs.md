@@ -3,7 +3,7 @@ layout: post
 title: "KUB's municipal broadband is exactly what Knoxville needs"
 date: 2021-05-25 # date of publish (sorting value)
 created: 2021-05-29 # date of creation (shown value, defaults to `date`)
-modified: 2021-05-29 # date last updated (shown if different than created)
+modified: 2021-06-04 # date last updated (shown if different than created)
 categories: internet
 description: "KUB is planning to bring municipal broadband to Knoxville, finally! Here's what I think,"
 tags: [knoxville, internet, isp]
@@ -71,3 +71,15 @@ The other common complaints I heard were about the forum format itself, I guess 
 Amongst the questions asked were some fairly technical ones, including inquiring about the availability of public IPv4 addresses, by one of the 4 or 5 server-rack-at-home / likeminded homelab crew. I have a lot of similar questions, but none will really change view that the municipal broadband will benefit everyone here in some way.
 
 Especially interesting to myself is that they included not only plans for symmetric 1gbit, but also were already planning 2.5gbit plans. Hopefully I'll be done upgrading my homelab networking to 10gig before KUB manages to bring that out to my residence.
+
+# FAQ Posted!
+
+[KUB posted the answers to many of the questions asked during the forum.](https://www.kub.org/about/about-kub/kub-service-areas/century-ii/meter-modernization/broadband-services-public-forum/broadband-public-forum-questions-responses)
+
+Notably they covered a lot of the points of worry from electric customers, as they clarify that the electric division will be installing fiber for their own purposes anyways and also explain how the plan will benefit the whole area.
+
+They directly addressed the higher electric rates concern explaining that those rate increases are for improvements to the existing infrastructure, which just happens to also include the addition of a smaller portion of fiber that would also be useful for the internet plan.
+
+> KUB is planning to install fiber on its electric system regardless of the outcome of the approval process related to broadband.
+>
+> Installing the fiber backbone on the electric system will improve reliability, efficiency, and prepare KUB for the evolving uses of electricity at homes and in businesses. This same fiber would also position KUB to provide broadband services if the plan is approved.
