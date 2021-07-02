@@ -14,7 +14,7 @@ image:
   background: #filename in images/ to use as page background
 comments: true
 share: true
-published: false
+published: true
 ---
 
 And so I upgraded from Pop 20.10 to 21.04.
