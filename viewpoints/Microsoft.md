@@ -66,9 +66,31 @@ As an example for the rug being pulled out, take youtube-dl as an example. Even 
 
 Further reading: [Why not GitHub? by Tom Ryder](https://sanctum.geek.nz/why-not-github.html) (includes cool alternative suggestions!)
 
-# Windows
+# Software
+
+## VSCode
+
+While I'm thankful for Microsoft supporting the open source community, it really does feel like the "embrace, extend, extinguish" argument is accurate for this context.
+
+If you take one thing away from this argument: **VSCode is NOT open source**. In fact you have to agree to a length set of terms and conditions to use VSCode downloaded from Microsoft's site.[^vscode-proprietary]
+
+While plenty of people have taken the open source portion of the editor (which is a transgression in itself, being named just `code`) and compiled it into a freely licensed binary (VSCodium) many of the extensions that make VSCode truly useful are locked under Microsoft's proprietary licenses and only work on proprietary VSCode as downloaded from Microsoft.[^vscode-proprietary]
+
+There are alternative options available: <https://opensource.com/article/20/6/open-source-alternatives-vs-code>
+
+## .NET
+
+Let me preface this by clearly stating that I do not use .NET for any real work or projects, and at this rate I don't think I want to start doing so.
+
+I don't think this is the first time that Microsoft has angered the open source community, but this one certainly raised some voices: Microsoft chose to limit access to an incredibly useful feature in .NET 6 to their own paid products.[^microsoft-net-feature]
+
+It's important to note that it's not "remove the feature entirely" but "restrict the feature to our paid product". Essentially the "extinguish" portion of the triple-E strategy where they want to lock in more people to their ecosystem.
+
+## Windows
 
 I really wish people realized just how bad it is. Not even speaking from a software quality perspective, but from a privacy and rights perspective it's a nightmare as well.
+
+You can ask a lot of people about why Windows sucks and get a wide range of answers, so I'll leave this section deliberately sparse. You can find plenty of reasons on any search engine.
 
 <!-- # Political -->
 
@@ -119,3 +141,14 @@ Just because I link to a website here *does not* mean I endorse the site or cont
 
 [^github-coc-deletion]: Certainly applying the code of conduct irregularly:
      - <https://medium.com/@catamphetamine/how-github-blocked-me-and-all-my-libraries-c32c61f061d3>
+
+[^vscode-proprietary]: VSCode and it's most useful extensions are proprietary:
+     - <https://underjord.io/the-best-parts-of-visual-studio-code-are-proprietary.html>
+     - <https://code.visualstudio.com/license>
+     - <https://opensource.stackexchange.com/questions/4288/is-microsoft-vs-code-really-open-source>
+
+[^microsoft-net-feature]: Microsoft and the .NET development feature being restricted to a paid-only IDE:
+     - <https://www.theverge.com/2021/10/22/22740701/microsoft-dotnet-hot-reload-removal-decision-open-source> and then <https://www.theverge.com/2021/10/23/22742282/microsoft-dotnet-hot-reload-u-turn-response>
+     - <https://then24.com/2021/10/23/microsoft-rolls-back-controversial-net-change-after-open-source-community-outcry/>
+     - <https://hitechglitz.com/microsoft-returns-controversial-net-change-after-outcry-from-the-open-source-community/>
+     - <https://winbuzzer.com/2021/10/25/microsoft-reverses-controversial-decision-to-remove-hot-reload-from-net-6-xcxwbn/>
