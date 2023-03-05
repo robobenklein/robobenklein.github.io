@@ -3,7 +3,7 @@ layout: post
 title: "Spring Swapping in the Spring"
 date: 2022-04-11 # date of publish (sorting value)
 created: 2022-04-11 # date of creation (shown value, defaults to `date`)
-modified: 2022-04-11 # date last updated (shown if different than created)
+modified: 2023-03-04 # date last updated (shown if different than created)
 categories: hardware
 description:
 tags: [keyboard, hardware, keyswitch]
@@ -56,3 +56,13 @@ Overall I'd give the HPX switches a 4 out of 5. They lose points for some physic
 The little tabs on the top and bottom where the keyswitch puller grabs didn't come far enough out of the board for the puller to get underneath the edge. This meant I had to use an extra hand with a iFixit pry tool to get the switch out of the socket in order to avoid damaging the very thin plastic bar that comes across the LED shine-through gap. With either more robust or stronger top half plastic or an extra half millimeter of latch depth I think this problem would've been entirely a non-issue.
 
 The feel is excellent for those who desire the strongly tactile experience, but the sound could still be improved, which I think some POM keycaps will definitely help with. By default (as a light typer) there was some quite noticeable springback clicks that got less pronounced after I swapped for lighter springs.
+
+# Spring of 2023
+
+I did finally get around to those POM keycaps, and they were totally worth it. I personally like the feel more compared to the stock ones, and with every key exactly where I expect it, no need for a legend, the ambient glow really serves as an excellent peripheral vision indicator for what layer the board is in.
+
+{% capture images %}
+  /images/moonlander/IMG_20230304_200643_NR_elr.jpg
+  /images/moonlander/IMG_20230304_200700_NR.jpg
+{% endcapture %}
+{% include gallery images=images cols=1 caption="Moonlander left half, white POM keycaps, with activated layers" %}
