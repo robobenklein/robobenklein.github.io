@@ -3,7 +3,7 @@ layout: post
 title: "Factorio 1.1: Trains, again"
 date: 2021-01-06 # date of publish (sorting value)
 created: 2021-01-06 # date of creation (shown value, defaults to `date`)
-modified: 2021-01-06 # date last updated (shown if different than created)
+modified: 2022-01-24 # date last updated (shown if different than created)
 categories: factorio
 description: Factorio 1.1 introduced stop train limits! A simple feature has powerful use cases, including emulating parts of a logistic network.
 tags: [factorio, gaming]
@@ -74,6 +74,27 @@ For a single item type, make sure you never have more trains than could fit in a
 As an example, if I have a 3-spot iron provider and a 3-slot iron requester, I should not have more than 5 trains servicing iron requests.
 
 To help alleviate this, it's possible to add a refuel or depot stacker stop, but I think that is not a great approach in terms of required travel-per-request efficiency.
+
+### Warning about "available" vs "total" slots
+
+I noticed a common pattern of misuse for these designs, so I felt the need to clarify here, some engineers are placing more trains on the line than there exist *available* slots, but less than the *total* slots.
+
+Available slot: one which is currently open and ready to receive a train, meaning the cargo is ready to be loaded/unloaded or can enter a stacker as soon as the train arrives.
+
+Total slots: this is the combined number of "stackers" or the combined total of the Maximum Stop Limits for all stations.
+
+Simplified Example:
+
+- 3 iron ore outposts, each with a max limit of 1 train, they aren't always ready to load an entire train, so they often have 0 available slots.
+- 2 iron ore requesters, each with a max limit of 2 trains,
+
+In this example, there are 3 + 2 * 2 total slots, however if we put 7 trains in the loop it'll obviously get stuck. What some people don't realize is that it can get stuck with even 5 trains!
+
+Let's say 2 of your 3 iron ore patches dry up and don't have enough for a final load, your maximum available slots will be reduced by 2. Now that you only have 5 available slots, you can see how 5 trains would end up causing a deadlock and you can no longer deliver any iron ore from the patch that is still full!
+
+In order to avoid this, if a station can "dry up" (or you dismantle one), be sure that the remaining number of trains servicing that resource is less than the number of stations that will remain operating.
+
+My simplified recommendation is to limit the train count to your requester slots and no more, because any more than that and if a provider stops functioning you may end up in a deadlock situation. Of course, if you are confident neither the requester nor provider will ever dry up, it's possible to have up to the total slots, although not without some risks or potential efficiency losses. Needing more throughput should not be an excuse to add more trains though, use parallel stations or larger stackers depending on the bottleneck.
 
 # Building the VLTN
 
