@@ -74,7 +74,7 @@ You should have your private and public key parts stored in `~/.ssh`, in that sa
 
 In it we can place this configuration in order to access your container:
 
-```SSH Config
+```ssh
 # This is my (robobenklein) example. Update your values with your own:
 Host fdac
   Hostname da3.eecs.utk.edu # replace with the hostname of the server running the docker containers for this year.
