@@ -81,7 +81,7 @@ Host fdac
   Port 7701 # replace with your port from Ports.md in the students repo
   User bklein3 # in case your local machine username is different from your NetID, you can set it here
   ForwardAgent yes # enable SSH Agent Forwarding so you can use your local agent keys on your container securely.
-  LocalForward 8888:localhost:8888 # enable TCP forwarding from your machine port 8888, to the container's port 8888
+  LocalForward 8888 localhost:8888 # enable TCP forwarding from your machine port 8888, to the container's port 8888
 ```
 
 With that in place, you should be able to use `ssh fdac` to log in to your container. If your key has been properly imported to your container by the TA or professor, you should **not** have to enter your password.
