@@ -37,13 +37,13 @@ For this class you'll be using your own docker container which runs on one of ou
 
 You will require an SSH key for this class, I (robobenklein) personally recommend ED25519 keys, but any SSH key will do.
 
-Generating keys: https://docs.github.com/en/authentication/connecting-to-github-with-ssh
+Generating keys: <https://docs.github.com/en/authentication/connecting-to-github-with-ssh>
 
 SSH keys always come in two parts:
 
 - Private key: NEVER share this with anyone, it should ALWAYS remain private and you will never need to send the private part to anyone, GitHub, the TAs, or otherwise.
 - Public key: this is the key part normally ending in `.pub`, it should be plain text that you can copy and share with other people freely:
-  - You should upload this public part to your github account at https://github.com/settings/keys
+  - You should upload this public part to your github account at <https://github.com/settings/keys>
 
 ### SSH Agent Forwarding
 
@@ -53,7 +53,7 @@ Using SSH Agent Forwarding allows you to use your SSH key on your local machine 
 
 GitHub has a guide for it, but I'll also cover how to enable it later in this guide.
 
-https://docs.github.com/en/authentication/connecting-to-github-with-ssh/using-ssh-agent-forwarding
+<https://docs.github.com/en/authentication/connecting-to-github-with-ssh/using-ssh-agent-forwarding>
 
 
 # Setup Instructions
@@ -116,7 +116,7 @@ git config --global user.email "your_email@example.com"
 Notes:
 
 - You can use almost anything for "Your Name", but I recommend using your actual name, GitHub username, or something else that people know you by. It will show up in the commit history of a repo when other people clone it, but won't be shown on GitHub, assuming you correctly set your email:
-- You need to set your email to something that GitHub has on file at: https://github.com/settings/emails in order to make sure your commits are linked with your GitHub account.
+- You need to set your email to something that GitHub has on file at: <https://github.com/settings/emails> in order to make sure your commits are linked with your GitHub account.
 
 Set up your default editor if you don't like vi (vi is set by default)
 ```
@@ -129,7 +129,7 @@ git config --global core.editor vim
 You should now be able to continue with the rest of the instructions that include:
 
 - Copying the `Practice0.ipynb` notebook to your own `your-netid.ipynb`.
-- Edit / complete the notebook, which should be available at http://localhost:8888 assuming you set up SSH TCP Forwarding correctly.
+- Edit / complete the notebook, which should be available at <http://localhost:8888> assuming you set up SSH TCP Forwarding correctly.
   - In case your notebook process dies or becomes unresponsive, your can kill it with `kill -TERM $(pgrep 'jupyter')` and restart it using `bash /bin/notebook.sh`
   - If you start a second notebook process by accident, or want to use your own, you might end up with one listening on the next available port like 8889, you will need to adjust your ssh config or add the SSH TCP local forwarding argument to the command you used to log in: `-L 8889:localhost:8889`. (Syntax is local port on your machine, remote target host, then remote target port)
 - Commit your changes (avoid adding / committing any changes to the original notebook you copied!)
