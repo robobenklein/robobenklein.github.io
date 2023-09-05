@@ -86,6 +86,8 @@ Host fdac
 
 With that in place, you should be able to use `ssh fdac` to log in to your container. If your key has been properly imported to your container by the TA or professor, you should **not** have to enter your password.
 
+If you just made this file, it might be the case that the permissions are too broad and openssh complains 'bad owner or permissions' or something similar, you can use `chmod -R go-rwx ~/.ssh` to remove `g`roup and `o`ther permissions from everything in `~/.ssh`.
+
 ## Clone your Practice0 fork
 
 > Commands in this section are expected to be run inside your container.
