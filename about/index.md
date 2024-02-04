@@ -21,21 +21,25 @@ share: false
 
  - Founder, Owner of Robosane
 
- - CS Student at [UTK](https://www.eecs.utk.edu/)
-
- - Graduate Research Assistant (Software Engineering Tools) under [Dr. Henley](http://web.eecs.utk.edu/~azh/) at [UTK](https://www.eecs.utk.edu/)
+ - Director of Engineering at Swiftly Systems
 
 <div class="title-previous" markdown="1">
 
+ - Lead Software Engineer at BYBE
+
+ - Graduate Research Assistant (Software Engineering Tools) under [Dr. Henley](http://web.eecs.utk.edu/~azh/) at [UTK](https://www.eecs.utk.edu/)
+
+ - CS Student at [UTK](https://www.eecs.utk.edu/)
+
  - [Robotics Coordinator](https://bigorangerobots.com/) for [FIRST Alumni at UTK](https://volink.utk.edu/organization/firstalumni)
+
+ - [UTK IEEE Robotics](https://ieee.eecs.utk.edu) Team Captain
 
  - Systems Development / Integration intern for [ORNL's OLCF](https://www.olcf.ornl.gov/)
 
  - Workflow and DevOps lead for [ORNL MDF](https://www.ornl.gov/mdf) Slicer 2 project.
 
  - Lead Programmer for [FRC Team 3966](https://lnstempunks.org/)
-
- - [UTK IEEE Robotics](https://ieee.eecs.utk.edu) Team Captain
 
 </div>
 
