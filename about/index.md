@@ -44,11 +44,11 @@ share: false
 Distros I've used for real work:
 
  - OpenSUSE (~2008-2012)
- - Ubuntu (~2010- ) (current server default)
- - Debian (~2014- )
+ - Ubuntu (~2010- )
+ - Debian (~2014- ) (current server favorite)
  - CentOS (2016-2019)
- - RHEL (2017- )
- - Pop\_OS! (2018- ) (current desktop default)
+ - RHEL (2017-2021)
+ - Pop\_OS! (2018- ) (current desktop favorite)
 
 # Why "Unhexium"?
 
@@ -56,7 +56,7 @@ Distros I've used for real work:
 
 Unhexium is an important name to me because it's the first machine on which I ran Linux as my primary OS and never since then have I ran a proprietary OS on any personal machine.
 
-Most people have a site like <name>.io or something... but robobenklein.??? just sounds really dumb for me to type and people already have a problem spelling my last name, not to mention how many times I've been called "Rob" because of that name.
+Most people have a site like \<name\>.io or something... but robobenklein.??? just sounds really dumb for me to type and people already have a problem spelling my last name, not to mention how many times I've been called "Rob" because of that name.
 
 # What is this red bird thing?
 
