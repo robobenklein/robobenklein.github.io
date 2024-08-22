@@ -246,7 +246,7 @@ GEM
       ffi (~> 1.0)
     redcarpet (3.6.0)
     ref (2.0.0)
-    rexml (3.3.3)
+    rexml (3.3.6)
       strscan
     rouge (3.26.0)
     ruby2_keywords (0.0.5)
