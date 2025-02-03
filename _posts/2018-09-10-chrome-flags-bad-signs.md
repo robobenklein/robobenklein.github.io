@@ -3,7 +3,7 @@ layout: post
 title: "Chrome Flags: Bad Signs"
 date: 2018-09-10 # date of publish (sorting value)
 created: 2018-09-10 # date of creation (shown value, defaults to `date`)
-modified: 2018-09-10 # date last updated (shown if different than created)
+modified: 2024-03-31 # date last updated (shown if different than created)
 categories: internet
 description:
 tags: [chrome, internet, software]
@@ -85,6 +85,12 @@ Just forcing this on should be self-explanatory.
 ### Mark non-secure origins as non-secure
 
 This is a personal preference kind of setting. I currently have this set to 'Mark dangerous on form edits' as that fits my use case well. (There are still some sites which haven't been able to move to HTTPS yet...)
+
+### Allow WebRTC to adjust the input volume (chrome v123.0)
+> added to this post 2024-03-31
+`chrome://flags/#enable-webrtc-allow-input-volume-adjustment`
+
+I keep a very close eye on my input volume and closely monitor it in EasyEffects / pavucontrol, I've balanced my levels by hand and I don't want zoom or teams chats changing that!
 
 ## More Flags
 
