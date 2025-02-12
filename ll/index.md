@@ -90,12 +90,22 @@ share: false
 |:---:|
 | [About Me](/about/) |
 | [Unhexium (Blog)](/) |
+| [GitHub](https://github.com/robobenklein/) |
+| [GitLab](https://gitlab.com/robobenklein/) |
 | [Keybase (PGP=F7A36255)](https://keybase.io/robobenklein) |
-| [Github](https://github.com/robobenklein/) |
-| [Gitlab](https://gitlab.com/robobenklein/) |
 | [LinkedIn](https://linkedin.com/in/robobenklein) |
 | [StackExchange: AskUbuntu](https://askubuntu.com/users/162914/robobenklein) |
-| [Twitter (stale)](https://twitter.com/robobenklein) |
 | [Steam](https://steamcommunity.com/id/robobenklein/) |
-| [SoundCloud (stale)](https://soundcloud.com/robobenklein) |
 {:.linkedlist.nohead}
+
+<details markdown='1' style="opacity: 0.5; padding-top: 1em;">
+<summary style="text-align: center;">deprecated</summary>
+These are accounts which I do still technically posess, but I don't use or maintain. Do not expect me to respond or pay attention to any listed below.
+
+|  |
+|:---:|
+| [Twitter](https://twitter.com/robobenklein) |
+| [SoundCloud](https://soundcloud.com/robobenklein) |
+{:.linkedlist.nohead}
+
+</details>
