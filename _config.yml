@@ -5,7 +5,6 @@ email: robobenklein@unhexium.net
 description: >
   Come read the infrequent, opinionated, and disjunct blog postings of Robobenklein.
   Unhexium.net is Robo's personal network for everything that doesn't belong somewhere else.
-twitter_username: robobenklein
 github_username: robobenklein
 
 enable_darkness: true
@@ -56,6 +55,8 @@ owner:
   github: robobenklein
   stackexchange: https://askubuntu.com/users/162914/robobenklein
   linkedlist: ll # page with list of outgoing links, 'linked list'
+  mastodon_verify_url: "https://fosstodon.org/@robobenklein"
+  mastodon_creator_handle: "@robobenklein@fosstodon.org"
 
 sass:
   sass_dir: _sass
