@@ -21,7 +21,7 @@ share: false
 
  - Founder, Owner of Robosane
 
- - Director of Engineering at Swiftly Systems
+ - Staff Software Engineer at Swiftly Systems
 
 <div class="title-previous" markdown="1">
 
@@ -52,7 +52,7 @@ Distros I've used for real work:
  - Debian (~2014- ) (current server favorite)
  - CentOS (2016-2019)
  - RHEL (2017-2021)
- - Pop\_OS! (2018- ) (current desktop favorite)
+ - Pop!\_OS (2018- ) (current desktop favorite)
 
 # Why "Unhexium"?
 
@@ -105,4 +105,4 @@ My sister remade the bird and a branch so that it's actually recognizable as a b
 
 </div>
 
-If you find an old version of one of these avatars online somewhere, chances are high that I've either abandoned that account or someone else is using my avatar for some reason.
+If you find an old version of one of these avatars online somewhere, chances are high that I've either abandoned that account or someone else is using my avatar for some reason. (I *have* had impersonators before, so beware; check the links on this site for my official profiles / contact info.)
