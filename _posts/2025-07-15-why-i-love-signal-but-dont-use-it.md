@@ -108,3 +108,11 @@ I *generally* avoid platforms where:
 - Authentication is poor:
   - Signal lives here, phone numbers should not be used for primary identification.
   - RCS chats (cellular) fall into this category too, which technically now support E2E encryption, but that's useless if I can't confirm that Bob is the person on the other end before sending a message.
+
+# I still love Signal
+
+While the focus of this post has been about *not* using Signal, I still actually love it. I recommend it, I share their blog posts, and I believe in & support the work they do.
+
+Signal is a wonderful upgrade from SMS/MMS/RCS chats, and because so many people already use those technologies it's a relatively simple switch. Thanks to the network effect that means Signal is consistently good at getting and keeping people onboard, and I support that because it means more people choosing security by default.
+
+In the meantime, I'll keep being the weird and difficult one out of a group - perhaps in vain - but with the goal of driving people even further towards what I think are better choices.
