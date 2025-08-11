@@ -49,10 +49,10 @@ Distros I've used for real work:
 
  - OpenSUSE (~2008-2012)
  - Ubuntu (~2010- )
- - Debian (~2014- ) (current server favorite)
+ - Debian (~2014- ) (current favorite)
  - CentOS (2016-2019)
  - RHEL (2017-2021)
- - Pop!\_OS (2018- ) (current desktop favorite)
+ - Pop!\_OS (2018- )
 
 # Why "Unhexium"?
 
