@@ -14,7 +14,8 @@ image:
   background: #filename in images/ to use as page background
 comments: true
 share: true
-published: false
+published: true
+hidden: true
 ---
 
 When people ask me what chat platforms I recommend, Signal is almost always in that list, but yet I don't use it myself... what's up with that?
