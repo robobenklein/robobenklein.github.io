@@ -3,7 +3,7 @@ layout: post
 title: "Why I love Signal but don't use it"
 date: 2025-07-15 # date of publish (sorting value)
 created: 2025-07-15 # date of creation (shown value, defaults to `date`)
-modified: 2025-07-15 # date last updated (shown if different than created)
+modified: 2026-01-07 # date last updated (shown if different than created)
 categories: security
 description:
 tags: [signal, security, chat, messaging]
@@ -101,7 +101,7 @@ It is surprisingly difficult to contact me, honestly I'm a bit of a pain to work
 I *generally* avoid platforms where:
 
 - The client is not open source: I need to be able to trust the things that run on my computer, and "open source" is the fastest & easiest (but not only) way to earn my trust.
-  - Notable exceptions: Steam/Discord[^discord-with-a-jail], because I generally *trust* these companies to do what they say they will at face value, and not, I dunno, harvest data for ads
+  - Notable exceptions: Steam/Discord[^discord-with-a-jail], because I generally *trust* these companies to do what they say they will at face value, and not, I dunno, harvest data for ads[^discord-with-a-jail]
   - like, *ahem*, [WhatsApp](https://www.mozillafoundation.org/en/blog/a-cheat-sheet-for-whatsapp-privacy/)
 - Encryption is not supported:
   - Telegram is an interesting example case here, because it does not even enable encryption by default or support it in group chats or channels
@@ -117,3 +117,17 @@ While the focus of this post has been about *not* using Signal, I still actually
 Signal is a wonderful upgrade from SMS/MMS/RCS chats, and because so many people already use those technologies it's a relatively simple switch. Thanks to the network effect that means Signal is consistently good at getting and keeping people onboard, and I support that because it means more people choosing security by default.
 
 In the meantime, I'll keep being the weird and difficult one out of a group - perhaps in vain - but with the goal of driving people even further towards what I think are better choices.
+
+
+---
+
+# Footnotes
+
+[^discord-with-a-jail]: Discord is *not* a recommendation at all, but is worthy of mention because I still use it regularly,
+    I run Discord in a sandbox or jail at all times, as I don't particularly want it doing some things:
+    - I do not want it scanning all my processes while it attempts to figure out what a "game" is
+    - I of course turned off the data / activity sharing because if Discord decided some random process was a "game" I do not want that advertised to the world.
+    - Obviously, turn off "use my data to personalize sponsored content", I mean *duh*, "when a service is free, you are the product".
+    - And I won't even start to talk about the problems with moderation and censorship because those naturally come in tandem with being a for-profit tech company.
+
+    Of course, you can totally just use Discord exclusively in a web browser, but even that doesn't mean I will recommend it because I totally expect it will soon be subject to [Enshittification](https://en.wikipedia.org/wiki/Enshittification) (due to the recent pivot towards other forms of revenue) and doesn't meet some other basic requirements like E2EE.
