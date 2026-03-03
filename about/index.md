@@ -52,7 +52,7 @@ Distros I've used for real work:
  - Debian (~2014- ) (current favorite)
  - CentOS (2016-2019)
  - RHEL (2017-2021)
- - Pop!\_OS (2018- )
+ - Pop!\_OS (2018-2025)
 
 # Why "Unhexium"?
 
