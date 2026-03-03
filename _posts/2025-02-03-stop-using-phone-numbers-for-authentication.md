@@ -81,3 +81,9 @@ Just take a look at [Signal's example](https://web.archive.org/web/2025012922203
 ## SMS is the only available second auth factor
 
 Looking at you Twilio (and now Sendgrid), where the *only* available second factor is via SMS. So long as it's purely the *second* factor and never the primary or only auth method, I don't think there's too much security risk. *However* I do think it's terribly inconvenient: TOTP secrets can be held by multiple devices, stored offline in backups, and work without an internet connection; SMS is just less reliable in terms of access and easier to lose.
+
+<!--
+https://www.theregister.com/2017/09/18/ss7_vuln_bitcoin_wallet_hack_risk/
+
+https://www.theregister.com/2016/07/24/nist_says_sms_no_good_for_authentication
+-->

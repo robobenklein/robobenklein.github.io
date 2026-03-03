@@ -160,6 +160,15 @@ I think DMS was the first to say something about how the Pandas handle snares ex
 
 Really surprised that's all it took, I'm able to wear them comfortably for hours on end now and the point pressure on the top of my head is gone.
 
+# The firmware update
+
+I am a bit behind the times on this one (partly because their updater didn't support linux), but I finally got incentivized to update the firmware on the headphones.
+
+To be honest, I was hoping for aptX low-latency, but didn't get it with the new firmware.
+
+Overall, firmware update went fine. I just had to re-pair the device and it worked as it did before. The *new feature* however, that being SoundID support, absolutely sucks.
+
 # Future updates
 
 As I continue to use these on a daily basis, I'll update here with any major news. (Including pulseaudio fixing the bluetooth codecs.) I'm hoping and expecting these will last far past their warranty date.
+
