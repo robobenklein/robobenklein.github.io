@@ -2,9 +2,9 @@
 layout: page
 title: Who is this?
 image:
-  feature: spacex-falcon-9-rocket-landing.jpg
-  credit: SpaceX
-  creditlink: https://www.spacex.com/
+  feature: moab_mars.jpg
+  credit: Preston Gull
+  creditlink:
 comments: false
 share: false
 ---
