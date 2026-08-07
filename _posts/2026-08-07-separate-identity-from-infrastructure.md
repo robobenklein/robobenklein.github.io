@@ -92,6 +92,6 @@ Federated systems are in the sweet spot of censorship prevention, reliability, c
 
 # I don't want to start from scratch
 
-To be clear, I love what existing Federated Platforms and Protocols are achieving, and I don't want to throw that all away, however such fundamental changes like disassociating identity from platforms may require some fundamental changes that could be incompatible with how current federated protocols operate.
+To be clear, I love what existing Federated Platforms and Protocols are achieving, and I don't want to throw that all away, however such fundamental changes like disassociating identity from platforms may require more serious changes to assumptions that could be incompatible with how current federated protocols operate.
 
 Maybe to bridge the gap in the interim projects like [Keyoxide](https://keyoxide.org/) could fulfill an important role in identity and trust, and potentially make migration to my ideal future system easier.
