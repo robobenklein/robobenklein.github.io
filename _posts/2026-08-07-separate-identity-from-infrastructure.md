@@ -14,7 +14,7 @@ image:
   background: #filename in images/ to use as page background
 comments: true
 share: true
-published: false
+published: true
 ---
 
 Here's my maybe-not-so-crazy-after-all idea: personal identity should be fully separate from infrastructure.
