@@ -11,11 +11,17 @@ sitemap: false
  *
 */
 
+@use "vendor/font-awesome/variables" with (
+  $font-path: '../fonts/fa'
+);
+@use "vendor/font-awesome/fontawesome";
+@use "vendor/font-awesome/fa";
+@use "vendor/font-awesome/solid";
+@use "vendor/font-awesome/brands";
 // Partials
 @import "variables";
 @import "mixins";
 @import "reset";
-@import "vendor/font-awesome/font-awesome";
 @import "vendor/magnific-popup/magnific-popup";
 @import "site";
 @import "typography";
